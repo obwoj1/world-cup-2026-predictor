@@ -1,1 +1,770 @@
-[]
+[
+  {
+    "id": "MEX",
+    "name": "Mexico",
+    "elo_code": "MX",
+    "confederation": "CONCACAF",
+    "group": "A",
+    "elo": 1881,
+    "elo_rank": 18,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "KOR",
+    "name": "South Korea",
+    "elo_code": "KR",
+    "confederation": "AFC",
+    "group": "A",
+    "elo": 1786,
+    "elo_rank": 24,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "CZE",
+    "name": "Czechia",
+    "elo_code": "CZ",
+    "confederation": "UEFA",
+    "group": "A",
+    "elo": 1712,
+    "elo_rank": 42,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "RSA",
+    "name": "South Africa",
+    "elo_code": "ZA",
+    "confederation": "CAF",
+    "group": "A",
+    "elo": 1511,
+    "elo_rank": 80,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "SUI",
+    "name": "Switzerland",
+    "elo_code": "CH",
+    "confederation": "UEFA",
+    "group": "B",
+    "elo": 1891,
+    "elo_rank": 17,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "CAN",
+    "name": "Canada",
+    "elo_code": "CA",
+    "confederation": "CONCACAF",
+    "group": "B",
+    "elo": 1767,
+    "elo_rank": 33,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "elo_code": "BA",
+    "confederation": "UEFA",
+    "group": "B",
+    "elo": 1616,
+    "elo_rank": 60,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "QAT",
+    "name": "Qatar",
+    "elo_code": "QA",
+    "confederation": "AFC",
+    "group": "B",
+    "elo": 1421,
+    "elo_rank": 96,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "BRA",
+    "name": "Brazil",
+    "elo_code": "BR",
+    "confederation": "CONMEBOL",
+    "group": "C",
+    "elo": 1991,
+    "elo_rank": 5,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "MAR",
+    "name": "Morocco",
+    "elo_code": "MA",
+    "confederation": "CAF",
+    "group": "C",
+    "elo": 1827,
+    "elo_rank": 23,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "SCO",
+    "name": "Scotland",
+    "elo_code": "SQ",
+    "confederation": "UEFA",
+    "group": "C",
+    "elo": 1782,
+    "elo_rank": 25,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "HAI",
+    "name": "Haiti",
+    "elo_code": "HT",
+    "confederation": "CONCACAF",
+    "group": "C",
+    "elo": 1548,
+    "elo_rank": 73,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "TUR",
+    "name": "Türkiye",
+    "elo_code": "TR",
+    "confederation": "UEFA",
+    "group": "D",
+    "elo": 1911,
+    "elo_rank": 13,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "USA",
+    "name": "United States",
+    "elo_code": "US",
+    "confederation": "CONCACAF",
+    "group": "D",
+    "elo": 1780,
+    "elo_rank": 26,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "PAR",
+    "name": "Paraguay",
+    "elo_code": "PY",
+    "confederation": "CONMEBOL",
+    "group": "D",
+    "elo": 1780,
+    "elo_rank": 26,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "AUS",
+    "name": "Australia",
+    "elo_code": "AU",
+    "confederation": "AFC",
+    "group": "D",
+    "elo": 1777,
+    "elo_rank": 29,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "ECU",
+    "name": "Ecuador",
+    "elo_code": "EC",
+    "confederation": "CONMEBOL",
+    "group": "E",
+    "elo": 1938,
+    "elo_rank": 9,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "GER",
+    "name": "Germany",
+    "elo_code": "DE",
+    "confederation": "UEFA",
+    "group": "E",
+    "elo": 1932,
+    "elo_rank": 10,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "CIV",
+    "name": "Ivory Coast",
+    "elo_code": "CI",
+    "confederation": "CAF",
+    "group": "E",
+    "elo": 1695,
+    "elo_rank": 49,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "CUW",
+    "name": "Curaçao",
+    "elo_code": "CW",
+    "confederation": "CONCACAF",
+    "group": "E",
+    "elo": 1434,
+    "elo_rank": 91,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "NED",
+    "name": "Netherlands",
+    "elo_code": "NL",
+    "confederation": "UEFA",
+    "group": "F",
+    "elo": 1948,
+    "elo_rank": 8,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "JPN",
+    "name": "Japan",
+    "elo_code": "JP",
+    "confederation": "AFC",
+    "group": "F",
+    "elo": 1906,
+    "elo_rank": 14,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "SWE",
+    "name": "Sweden",
+    "elo_code": "SE",
+    "confederation": "UEFA",
+    "group": "F",
+    "elo": 1712,
+    "elo_rank": 42,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "TUN",
+    "name": "Tunisia",
+    "elo_code": "TN",
+    "confederation": "CAF",
+    "group": "F",
+    "elo": 1628,
+    "elo_rank": 58,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "BEL",
+    "name": "Belgium",
+    "elo_code": "BE",
+    "confederation": "UEFA",
+    "group": "G",
+    "elo": 1894,
+    "elo_rank": 15,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "IRN",
+    "name": "Iran",
+    "elo_code": "IR",
+    "confederation": "AFC",
+    "group": "G",
+    "elo": 1772,
+    "elo_rank": 30,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "EGY",
+    "name": "Egypt",
+    "elo_code": "EG",
+    "confederation": "CAF",
+    "group": "G",
+    "elo": 1696,
+    "elo_rank": 48,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "NZL",
+    "name": "New Zealand",
+    "elo_code": "NZ",
+    "confederation": "OFC",
+    "group": "G",
+    "elo": 1562,
+    "elo_rank": 72,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "ESP",
+    "name": "Spain",
+    "elo_code": "ES",
+    "confederation": "UEFA",
+    "group": "H",
+    "elo": 2157,
+    "elo_rank": 1,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "URU",
+    "name": "Uruguay",
+    "elo_code": "UY",
+    "confederation": "CONMEBOL",
+    "group": "H",
+    "elo": 1892,
+    "elo_rank": 16,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "CPV",
+    "name": "Cape Verde",
+    "elo_code": "CV",
+    "confederation": "CAF",
+    "group": "H",
+    "elo": 1578,
+    "elo_rank": 68,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "KSA",
+    "name": "Saudi Arabia",
+    "elo_code": "SA",
+    "confederation": "AFC",
+    "group": "H",
+    "elo": 1576,
+    "elo_rank": 69,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "FRA",
+    "name": "France",
+    "elo_code": "FR",
+    "confederation": "UEFA",
+    "group": "I",
+    "elo": 2063,
+    "elo_rank": 3,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "NOR",
+    "name": "Norway",
+    "elo_code": "NO",
+    "confederation": "UEFA",
+    "group": "I",
+    "elo": 1914,
+    "elo_rank": 11,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "SEN",
+    "name": "Senegal",
+    "elo_code": "SN",
+    "confederation": "CAF",
+    "group": "I",
+    "elo": 1860,
+    "elo_rank": 21,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "IRQ",
+    "name": "Iraq",
+    "elo_code": "IQ",
+    "confederation": "AFC",
+    "group": "I",
+    "elo": 1607,
+    "elo_rank": 64,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "ARG",
+    "name": "Argentina",
+    "elo_code": "AR",
+    "confederation": "CONMEBOL",
+    "group": "J",
+    "elo": 2115,
+    "elo_rank": 2,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "AUT",
+    "name": "Austria",
+    "elo_code": "AT",
+    "confederation": "UEFA",
+    "group": "J",
+    "elo": 1830,
+    "elo_rank": 22,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "ALG",
+    "name": "Algeria",
+    "elo_code": "DZ",
+    "confederation": "CAF",
+    "group": "J",
+    "elo": 1772,
+    "elo_rank": 30,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "JOR",
+    "name": "Jordan",
+    "elo_code": "JO",
+    "confederation": "AFC",
+    "group": "J",
+    "elo": 1680,
+    "elo_rank": 52,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "POR",
+    "name": "Portugal",
+    "elo_code": "PT",
+    "confederation": "UEFA",
+    "group": "K",
+    "elo": 1989,
+    "elo_rank": 6,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "COL",
+    "name": "Colombia",
+    "elo_code": "CO",
+    "confederation": "CONMEBOL",
+    "group": "K",
+    "elo": 1982,
+    "elo_rank": 7,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "UZB",
+    "name": "Uzbekistan",
+    "elo_code": "UZ",
+    "confederation": "AFC",
+    "group": "K",
+    "elo": 1714,
+    "elo_rank": 41,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "COD",
+    "name": "DR Congo",
+    "elo_code": "CD",
+    "confederation": "CAF",
+    "group": "K",
+    "elo": 1652,
+    "elo_rank": 55,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "ENG",
+    "name": "England",
+    "elo_code": "EN",
+    "confederation": "UEFA",
+    "group": "L",
+    "elo": 2024,
+    "elo_rank": 4,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "CRO",
+    "name": "Croatia",
+    "elo_code": "HR",
+    "confederation": "UEFA",
+    "group": "L",
+    "elo": 1912,
+    "elo_rank": 12,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "PAN",
+    "name": "Panama",
+    "elo_code": "PA",
+    "confederation": "CONCACAF",
+    "group": "L",
+    "elo": 1730,
+    "elo_rank": 38,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  },
+  {
+    "id": "GHA",
+    "name": "Ghana",
+    "elo_code": "GH",
+    "confederation": "CAF",
+    "group": "L",
+    "elo": 1510,
+    "elo_rank": 81,
+    "fifa_rank": null,
+    "form": null,
+    "xg": null,
+    "wc_knockout_history": null,
+    "sources": [
+      "sources/elo_world_2026-06-13.tsv"
+    ]
+  }
+]
