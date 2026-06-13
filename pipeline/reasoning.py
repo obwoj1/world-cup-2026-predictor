@@ -26,10 +26,15 @@ def build_reasoning(pred: MatchPrediction, home_team: dict, away_team: dict) -> 
 
     sentences: list[str] = []
 
-    # 1. Elo framing
+    def rank_str(t: dict) -> str:
+        fifa = f"FIFA #{t['fifa_rank']}" if t.get("fifa_rank") else None
+        elo = f"Elo {t['elo']}"
+        return f"{fifa}, {elo}" if fifa else elo
+
+    # 1. Ranking framing — show FIFA rank (familiar) and Elo (what the model uses)
     sentences.append(
-        f"{fav['name']} (Elo {fav['elo']}, world #{fav['elo_rank']}) are {_fav_label(fav_p)} "
-        f"over {und['name']} (Elo {und['elo']}, #{und['elo_rank']}), an Elo gap of {gap}."
+        f"{fav['name']} ({rank_str(fav)}) are {_fav_label(fav_p)} over "
+        f"{und['name']} ({rank_str(und)}); the model is driven by their Elo gap of {gap}."
     )
 
     # 2. Host advantage, if relevant

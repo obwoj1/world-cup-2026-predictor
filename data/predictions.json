@@ -1,7 +1,7 @@
 [
   {
     "id": "M005",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "C",
@@ -21,7 +21,7 @@
       "away": 1.768
     },
     "confidence": "medium",
-    "reasoning": "Scotland (Elo 1782, world #25) are favourites over Haiti (Elo 1548, #73), an Elo gap of 234. The model gives Haiti 17% / draw 23% / Scotland 60%, with a most-likely scoreline of 0-1. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "Scotland (FIFA #42, Elo 1782) are favourites over Haiti (FIFA #83, Elo 1548); the model is driven by their Elo gap of 234. The model gives Haiti 17% / draw 23% / Scotland 60%, with a most-likely scoreline of 0-1. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [
       {
         "player_id": "hai-duckens-nazon",
@@ -95,7 +95,7 @@
   },
   {
     "id": "M006",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "D",
@@ -115,7 +115,7 @@
       "away": 1.568
     },
     "confidence": "medium",
-    "reasoning": "Türkiye (Elo 1911, world #13) are favourites over Australia (Elo 1777, #29), an Elo gap of 134. The model gives Australia 25% / draw 25% / Türkiye 50%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "Türkiye (FIFA #22, Elo 1911) are favourites over Australia (FIFA #27, Elo 1777); the model is driven by their Elo gap of 134. The model gives Australia 25% / draw 25% / Türkiye 50%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [
       {
         "player_id": "aus-mathew-leckie",
@@ -189,7 +189,7 @@
   },
   {
     "id": "M007",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "C",
@@ -209,7 +209,7 @@
       "away": 0.972
     },
     "confidence": "medium",
-    "reasoning": "Brazil (Elo 1991, world #5) are favourites over Morocco (Elo 1827, #23), an Elo gap of 164. The model gives Brazil 53% / draw 25% / Morocco 23%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "Brazil (FIFA #6, Elo 1991) are favourites over Morocco (FIFA #7, Elo 1827); the model is driven by their Elo gap of 164. The model gives Brazil 53% / draw 25% / Morocco 23%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [
       {
         "player_id": "bra-neymar",
@@ -283,7 +283,7 @@
   },
   {
     "id": "M008",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "B",
@@ -303,7 +303,7 @@
       "away": 2.24
     },
     "confidence": "high",
-    "reasoning": "Switzerland (Elo 1891, world #17) are clear favourites over Qatar (Elo 1421, #96), an Elo gap of 470. The model gives Qatar 5% / draw 15% / Switzerland 81%, with a most-likely scoreline of 0-2. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Switzerland (FIFA #19, Elo 1891) are clear favourites over Qatar (FIFA #56, Elo 1421); the model is driven by their Elo gap of 470. The model gives Qatar 5% / draw 15% / Switzerland 81%, with a most-likely scoreline of 0-2. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "qat-almoez-ali",
@@ -377,7 +377,7 @@
   },
   {
     "id": "M009",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "E",
@@ -397,7 +397,7 @@
       "away": 1.786
     },
     "confidence": "high",
-    "reasoning": "Ecuador (Elo 1938, world #9) are clear favourites over Ivory Coast (Elo 1695, #49), an Elo gap of 243. The model gives Ivory Coast 17% / draw 23% / Ecuador 60%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Ecuador (FIFA #23, Elo 1938) are clear favourites over Ivory Coast (FIFA #33, Elo 1695); the model is driven by their Elo gap of 243. The model gives Ivory Coast 17% / draw 23% / Ecuador 60%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "civ-nicolas-p-p",
@@ -471,7 +471,7 @@
   },
   {
     "id": "M010",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "E",
@@ -491,7 +491,7 @@
       "away": 0.304
     },
     "confidence": "high",
-    "reasoning": "Germany (Elo 1932, world #10) are clear favourites over Curaçao (Elo 1434, #91), an Elo gap of 498. The model gives Germany 83% / draw 14% / Curaçao 4%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Germany (FIFA #10, Elo 1932) are clear favourites over Curaçao (FIFA #82, Elo 1434); the model is driven by their Elo gap of 498. The model gives Germany 83% / draw 14% / Curaçao 4%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "ger-kai-havertz",
@@ -565,7 +565,7 @@
   },
   {
     "id": "M011",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "F",
@@ -585,7 +585,7 @@
       "away": 1.216
     },
     "confidence": "low",
-    "reasoning": "Netherlands (Elo 1948, world #8) are narrow favourites over Japan (Elo 1906, #14), an Elo gap of 42. The model gives Netherlands 41% / draw 26% / Japan 33%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "reasoning": "Netherlands (FIFA #8, Elo 1948) are narrow favourites over Japan (FIFA #18, Elo 1906); the model is driven by their Elo gap of 42. The model gives Netherlands 41% / draw 26% / Japan 33%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
     "players_to_watch": [
       {
         "player_id": "ned-memphis-depay",
@@ -659,7 +659,7 @@
   },
   {
     "id": "M012",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "F",
@@ -679,7 +679,7 @@
       "away": 1.132
     },
     "confidence": "low",
-    "reasoning": "Sweden (Elo 1712, world #42) are narrow favourites over Tunisia (Elo 1628, #58), an Elo gap of 84. The model gives Sweden 45% / draw 26% / Tunisia 29%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "reasoning": "Sweden (FIFA #38, Elo 1712) are narrow favourites over Tunisia (FIFA #45, Elo 1628); the model is driven by their Elo gap of 84. The model gives Sweden 45% / draw 26% / Tunisia 29%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
     "players_to_watch": [
       {
         "player_id": "swe-viktor-gy-keres",
@@ -753,7 +753,7 @@
   },
   {
     "id": "M013",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "H",
@@ -773,7 +773,7 @@
       "away": 1.932
     },
     "confidence": "high",
-    "reasoning": "Uruguay (Elo 1892, world #16) are clear favourites over Saudi Arabia (Elo 1576, #69), an Elo gap of 316. The model gives Saudi Arabia 12% / draw 21% / Uruguay 67%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Uruguay (FIFA #16, Elo 1892) are clear favourites over Saudi Arabia (FIFA #61, Elo 1576); the model is driven by their Elo gap of 316. The model gives Saudi Arabia 12% / draw 21% / Uruguay 67%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "ksa-salem-al-dawsari",
@@ -847,7 +847,7 @@
   },
   {
     "id": "M014",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "H",
@@ -867,7 +867,7 @@
       "away": 0.2
     },
     "confidence": "high",
-    "reasoning": "Spain (Elo 2157, world #1) are clear favourites over Cape Verde (Elo 1578, #68), an Elo gap of 579. The model gives Spain 87% / draw 11% / Cape Verde 2%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Spain (FIFA #2, Elo 2157) are clear favourites over Cape Verde (FIFA #67, Elo 1578); the model is driven by their Elo gap of 579. The model gives Spain 87% / draw 11% / Cape Verde 2%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "esp-mikel-oyarzabal",
@@ -941,7 +941,7 @@
   },
   {
     "id": "M015",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "G",
@@ -961,7 +961,7 @@
       "away": 0.88
     },
     "confidence": "medium",
-    "reasoning": "Iran (Elo 1772, world #30) are favourites over New Zealand (Elo 1562, #72), an Elo gap of 210. The model gives Iran 57% / draw 24% / New Zealand 19%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "Iran (FIFA #20, Elo 1772) are favourites over New Zealand (FIFA #85, Elo 1562); the model is driven by their Elo gap of 210. The model gives Iran 57% / draw 24% / New Zealand 19%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [
       {
         "player_id": "irn-mehdi-taremi",
@@ -1035,7 +1035,7 @@
   },
   {
     "id": "M016",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "G",
@@ -1055,7 +1055,7 @@
       "away": 0.904
     },
     "confidence": "medium",
-    "reasoning": "Belgium (Elo 1894, world #15) are favourites over Egypt (Elo 1696, #48), an Elo gap of 198. The model gives Belgium 56% / draw 24% / Egypt 20%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "Belgium (FIFA #9, Elo 1894) are favourites over Egypt (FIFA #29, Elo 1696); the model is driven by their Elo gap of 198. The model gives Belgium 56% / draw 24% / Egypt 20%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [
       {
         "player_id": "bel-romelu-lukaku",
@@ -1129,7 +1129,7 @@
   },
   {
     "id": "M017",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "I",
@@ -1149,7 +1149,7 @@
       "away": 0.894
     },
     "confidence": "medium",
-    "reasoning": "France (Elo 2063, world #3) are favourites over Senegal (Elo 1860, #21), an Elo gap of 203. The model gives France 57% / draw 24% / Senegal 20%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "France (FIFA #3, Elo 2063) are favourites over Senegal (FIFA #15, Elo 1860); the model is driven by their Elo gap of 203. The model gives France 57% / draw 24% / Senegal 20%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [
       {
         "player_id": "fra-kylian-mbapp",
@@ -1223,7 +1223,7 @@
   },
   {
     "id": "M018",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "I",
@@ -1243,7 +1243,7 @@
       "away": 1.914
     },
     "confidence": "high",
-    "reasoning": "Norway (Elo 1914, world #11) are clear favourites over Iraq (Elo 1607, #64), an Elo gap of 307. The model gives Iraq 13% / draw 21% / Norway 67%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Norway (FIFA #31, Elo 1914) are clear favourites over Iraq (FIFA #57, Elo 1607); the model is driven by their Elo gap of 307. The model gives Iraq 13% / draw 21% / Norway 67%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "irq-aymen-hussein",
@@ -1317,7 +1317,7 @@
   },
   {
     "id": "M019",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "J",
@@ -1337,7 +1337,7 @@
       "away": 0.614
     },
     "confidence": "high",
-    "reasoning": "Argentina (Elo 2115, world #2) are clear favourites over Algeria (Elo 1772, #30), an Elo gap of 343. The model gives Argentina 70% / draw 20% / Algeria 10%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Argentina (FIFA #1, Elo 2115) are clear favourites over Algeria (FIFA #28, Elo 1772); the model is driven by their Elo gap of 343. The model gives Argentina 70% / draw 20% / Algeria 10%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "arg-lionel-messi",
@@ -1411,7 +1411,7 @@
   },
   {
     "id": "M020",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "J",
@@ -1431,7 +1431,7 @@
       "away": 1.0
     },
     "confidence": "medium",
-    "reasoning": "Austria (Elo 1830, world #22) are favourites over Jordan (Elo 1680, #52), an Elo gap of 150. The model gives Austria 51% / draw 25% / Jordan 24%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "Austria (FIFA #24, Elo 1830) are favourites over Jordan (FIFA #63, Elo 1680); the model is driven by their Elo gap of 150. The model gives Austria 51% / draw 25% / Jordan 24%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [
       {
         "player_id": "aut-marko-arnautovi",
@@ -1505,7 +1505,7 @@
   },
   {
     "id": "M021",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "L",
@@ -1525,7 +1525,7 @@
       "away": 1.74
     },
     "confidence": "medium",
-    "reasoning": "Panama (Elo 1730, world #38) are favourites over Ghana (Elo 1510, #81), an Elo gap of 220. The model gives Ghana 18% / draw 23% / Panama 58%, with a most-likely scoreline of 0-1. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "Panama (FIFA #34, Elo 1730) are favourites over Ghana (FIFA #73, Elo 1510); the model is driven by their Elo gap of 220. The model gives Ghana 18% / draw 23% / Panama 58%, with a most-likely scoreline of 0-1. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [
       {
         "player_id": "gha-jordan-ayew",
@@ -1599,7 +1599,7 @@
   },
   {
     "id": "M022",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "L",
@@ -1619,7 +1619,7 @@
       "away": 1.076
     },
     "confidence": "medium",
-    "reasoning": "England (Elo 2024, world #4) are favourites over Croatia (Elo 1912, #12), an Elo gap of 112. The model gives England 48% / draw 26% / Croatia 27%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "England (FIFA #4, Elo 2024) are favourites over Croatia (FIFA #11, Elo 1912); the model is driven by their Elo gap of 112. The model gives England 48% / draw 26% / Croatia 27%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [
       {
         "player_id": "eng-harry-kane",
@@ -1693,7 +1693,7 @@
   },
   {
     "id": "M023",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "K",
@@ -1713,7 +1713,7 @@
       "away": 0.626
     },
     "confidence": "high",
-    "reasoning": "Portugal (Elo 1989, world #6) are clear favourites over DR Congo (Elo 1652, #55), an Elo gap of 337. The model gives Portugal 69% / draw 20% / DR Congo 11%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Portugal (FIFA #5, Elo 1989) are clear favourites over DR Congo (FIFA #46, Elo 1652); the model is driven by their Elo gap of 337. The model gives Portugal 69% / draw 20% / DR Congo 11%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "por-cristiano-ronaldo",
@@ -1787,7 +1787,7 @@
   },
   {
     "id": "M024",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "K",
@@ -1807,7 +1807,7 @@
       "away": 1.836
     },
     "confidence": "high",
-    "reasoning": "Colombia (Elo 1982, world #7) are clear favourites over Uzbekistan (Elo 1714, #41), an Elo gap of 268. The model gives Uzbekistan 15% / draw 22% / Colombia 63%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Colombia (FIFA #13, Elo 1982) are clear favourites over Uzbekistan (FIFA #50, Elo 1714); the model is driven by their Elo gap of 268. The model gives Uzbekistan 15% / draw 22% / Colombia 63%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "uzb-eldor-shomurodov",
@@ -1881,7 +1881,7 @@
   },
   {
     "id": "M025",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "A",
@@ -1901,7 +1901,7 @@
       "away": 0.898
     },
     "confidence": "medium",
-    "reasoning": "Czechia (Elo 1712, world #42) are favourites over South Africa (Elo 1511, #80), an Elo gap of 201. The model gives Czechia 56% / draw 24% / South Africa 20%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "Czechia (FIFA #40, Elo 1712) are favourites over South Africa (FIFA #60, Elo 1511); the model is driven by their Elo gap of 201. The model gives Czechia 56% / draw 24% / South Africa 20%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [
       {
         "player_id": "cze-patrik-schick",
@@ -1975,7 +1975,7 @@
   },
   {
     "id": "M026",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "B",
@@ -1995,7 +1995,7 @@
       "away": 0.75
     },
     "confidence": "high",
-    "reasoning": "Switzerland (Elo 1891, world #17) are clear favourites over Bosnia and Herzegovina (Elo 1616, #60), an Elo gap of 275. The model gives Switzerland 64% / draw 22% / Bosnia and Herzegovina 15%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Switzerland (FIFA #19, Elo 1891) are clear favourites over Bosnia and Herzegovina (FIFA #64, Elo 1616); the model is driven by their Elo gap of 275. The model gives Switzerland 64% / draw 22% / Bosnia and Herzegovina 15%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "sui-breel-embolo",
@@ -2069,7 +2069,7 @@
   },
   {
     "id": "M027",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "B",
@@ -2089,7 +2089,7 @@
       "away": 0.478
     },
     "confidence": "high",
-    "reasoning": "Canada (Elo 1767, world #33) are clear favourites over Qatar (Elo 1421, #96), an Elo gap of 346. As a tournament host, Canada get a home-advantage bump worth ~65 Elo points in this projection. The model gives Canada 76% / draw 17% / Qatar 7%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Canada (FIFA #30, Elo 1767) are clear favourites over Qatar (FIFA #56, Elo 1421); the model is driven by their Elo gap of 346. As a tournament host, Canada get a home-advantage bump worth ~65 Elo points in this projection. The model gives Canada 76% / draw 17% / Qatar 7%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "can-jonathan-david",
@@ -2163,7 +2163,7 @@
   },
   {
     "id": "M028",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "A",
@@ -2183,7 +2183,7 @@
       "away": 0.98
     },
     "confidence": "medium",
-    "reasoning": "Mexico (Elo 1881, world #18) are favourites over South Korea (Elo 1786, #24), an Elo gap of 95. As a tournament host, Mexico get a home-advantage bump worth ~65 Elo points in this projection. The model gives Mexico 52% / draw 25% / South Korea 23%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "Mexico (FIFA #14, Elo 1881) are favourites over South Korea (FIFA #25, Elo 1786); the model is driven by their Elo gap of 95. As a tournament host, Mexico get a home-advantage bump worth ~65 Elo points in this projection. The model gives Mexico 52% / draw 25% / South Korea 23%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [
       {
         "player_id": "mex-ra-l-jim-nez",
@@ -2257,7 +2257,7 @@
   },
   {
     "id": "M029",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "C",
@@ -2277,7 +2277,7 @@
       "away": 0.414
     },
     "confidence": "high",
-    "reasoning": "Brazil (Elo 1991, world #5) are clear favourites over Haiti (Elo 1548, #73), an Elo gap of 443. The model gives Brazil 78% / draw 16% / Haiti 6%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Brazil (FIFA #6, Elo 1991) are clear favourites over Haiti (FIFA #83, Elo 1548); the model is driven by their Elo gap of 443. The model gives Brazil 78% / draw 16% / Haiti 6%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "bra-neymar",
@@ -2351,7 +2351,7 @@
   },
   {
     "id": "M030",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "C",
@@ -2371,7 +2371,7 @@
       "away": 1.39
     },
     "confidence": "low",
-    "reasoning": "Morocco (Elo 1827, world #23) are narrow favourites over Scotland (Elo 1782, #25), an Elo gap of 45. The model gives Scotland 33% / draw 26% / Morocco 41%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "reasoning": "Morocco (FIFA #7, Elo 1827) are narrow favourites over Scotland (FIFA #42, Elo 1782); the model is driven by their Elo gap of 45. The model gives Scotland 33% / draw 26% / Morocco 41%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
     "players_to_watch": [
       {
         "player_id": "sco-ch-adams",
@@ -2445,7 +2445,7 @@
   },
   {
     "id": "M031",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "D",
@@ -2465,7 +2465,7 @@
       "away": 1.038
     },
     "confidence": "medium",
-    "reasoning": "Türkiye (Elo 1911, world #13) are favourites over Paraguay (Elo 1780, #26), an Elo gap of 131. The model gives Türkiye 49% / draw 25% / Paraguay 25%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "Türkiye (FIFA #22, Elo 1911) are favourites over Paraguay (FIFA #41, Elo 1780); the model is driven by their Elo gap of 131. The model gives Türkiye 49% / draw 25% / Paraguay 25%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [
       {
         "player_id": "tur-kerem-akt-rko-lu",
@@ -2539,7 +2539,7 @@
   },
   {
     "id": "M032",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "D",
@@ -2559,7 +2559,7 @@
       "away": 1.164
     },
     "confidence": "low",
-    "reasoning": "United States (Elo 1780, world #26) are narrow favourites over Australia (Elo 1777, #29), an Elo gap of 3. As a tournament host, United States get a home-advantage bump worth ~65 Elo points in this projection. The model gives United States 43% / draw 26% / Australia 31%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "reasoning": "United States (FIFA #17, Elo 1780) are narrow favourites over Australia (FIFA #27, Elo 1777); the model is driven by their Elo gap of 3. As a tournament host, United States get a home-advantage bump worth ~65 Elo points in this projection. The model gives United States 43% / draw 26% / Australia 31%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
     "players_to_watch": [
       {
         "player_id": "usa-christian-pulisic",
@@ -2633,7 +2633,7 @@
   },
   {
     "id": "M033",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "E",
@@ -2653,7 +2653,7 @@
       "away": 0.826
     },
     "confidence": "medium",
-    "reasoning": "Germany (Elo 1932, world #10) are favourites over Ivory Coast (Elo 1695, #49), an Elo gap of 237. The model gives Germany 60% / draw 23% / Ivory Coast 17%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "Germany (FIFA #10, Elo 1932) are favourites over Ivory Coast (FIFA #33, Elo 1695); the model is driven by their Elo gap of 237. The model gives Germany 60% / draw 23% / Ivory Coast 17%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [
       {
         "player_id": "ger-kai-havertz",
@@ -2727,7 +2727,7 @@
   },
   {
     "id": "M034",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "E",
@@ -2747,7 +2747,7 @@
       "away": 0.292
     },
     "confidence": "high",
-    "reasoning": "Ecuador (Elo 1938, world #9) are clear favourites over Curaçao (Elo 1434, #91), an Elo gap of 504. The model gives Ecuador 83% / draw 13% / Curaçao 3%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Ecuador (FIFA #23, Elo 1938) are clear favourites over Curaçao (FIFA #82, Elo 1434); the model is driven by their Elo gap of 504. The model gives Ecuador 83% / draw 13% / Curaçao 3%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "ecu-enner-valencia",
@@ -2821,7 +2821,7 @@
   },
   {
     "id": "M035",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "F",
@@ -2841,7 +2841,7 @@
       "away": 0.828
     },
     "confidence": "medium",
-    "reasoning": "Netherlands (Elo 1948, world #8) are favourites over Sweden (Elo 1712, #42), an Elo gap of 236. The model gives Netherlands 60% / draw 23% / Sweden 17%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "Netherlands (FIFA #8, Elo 1948) are favourites over Sweden (FIFA #38, Elo 1712); the model is driven by their Elo gap of 236. The model gives Netherlands 60% / draw 23% / Sweden 17%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [
       {
         "player_id": "ned-memphis-depay",
@@ -2915,7 +2915,7 @@
   },
   {
     "id": "M036",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "F",
@@ -2935,7 +2935,7 @@
       "away": 1.856
     },
     "confidence": "high",
-    "reasoning": "Japan (Elo 1906, world #14) are clear favourites over Tunisia (Elo 1628, #58), an Elo gap of 278. The model gives Tunisia 14% / draw 22% / Japan 64%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Japan (FIFA #18, Elo 1906) are clear favourites over Tunisia (FIFA #45, Elo 1628); the model is driven by their Elo gap of 278. The model gives Tunisia 14% / draw 22% / Japan 64%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "tun-firas-chaouat",
@@ -3009,7 +3009,7 @@
   },
   {
     "id": "M037",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "H",
@@ -3029,7 +3029,7 @@
       "away": 0.672
     },
     "confidence": "high",
-    "reasoning": "Uruguay (Elo 1892, world #16) are clear favourites over Cape Verde (Elo 1578, #68), an Elo gap of 314. The model gives Uruguay 67% / draw 21% / Cape Verde 12%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Uruguay (FIFA #16, Elo 1892) are clear favourites over Cape Verde (FIFA #67, Elo 1578); the model is driven by their Elo gap of 314. The model gives Uruguay 67% / draw 21% / Cape Verde 12%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "uru-darwin-n-ez",
@@ -3103,7 +3103,7 @@
   },
   {
     "id": "M038",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "H",
@@ -3123,7 +3123,7 @@
       "away": 0.2
     },
     "confidence": "high",
-    "reasoning": "Spain (Elo 2157, world #1) are clear favourites over Saudi Arabia (Elo 1576, #69), an Elo gap of 581. The model gives Spain 87% / draw 11% / Saudi Arabia 2%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Spain (FIFA #2, Elo 2157) are clear favourites over Saudi Arabia (FIFA #61, Elo 1576); the model is driven by their Elo gap of 581. The model gives Spain 87% / draw 11% / Saudi Arabia 2%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "esp-mikel-oyarzabal",
@@ -3197,7 +3197,7 @@
   },
   {
     "id": "M039",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "G",
@@ -3217,7 +3217,7 @@
       "away": 1.056
     },
     "confidence": "medium",
-    "reasoning": "Belgium (Elo 1894, world #15) are favourites over Iran (Elo 1772, #30), an Elo gap of 122. The model gives Belgium 49% / draw 25% / Iran 26%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "Belgium (FIFA #9, Elo 1894) are favourites over Iran (FIFA #20, Elo 1772); the model is driven by their Elo gap of 122. The model gives Belgium 49% / draw 25% / Iran 26%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [
       {
         "player_id": "bel-romelu-lukaku",
@@ -3291,7 +3291,7 @@
   },
   {
     "id": "M040",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "G",
@@ -3311,7 +3311,7 @@
       "away": 1.568
     },
     "confidence": "medium",
-    "reasoning": "Egypt (Elo 1696, world #48) are favourites over New Zealand (Elo 1562, #72), an Elo gap of 134. The model gives New Zealand 25% / draw 25% / Egypt 50%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "Egypt (FIFA #29, Elo 1696) are favourites over New Zealand (FIFA #85, Elo 1562); the model is driven by their Elo gap of 134. The model gives New Zealand 25% / draw 25% / Egypt 50%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [
       {
         "player_id": "nzl-chris-wood",
@@ -3385,7 +3385,7 @@
   },
   {
     "id": "M041",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "I",
@@ -3405,7 +3405,7 @@
       "away": 1.192
     },
     "confidence": "low",
-    "reasoning": "Norway (Elo 1914, world #11) are narrow favourites over Senegal (Elo 1860, #21), an Elo gap of 54. The model gives Norway 42% / draw 26% / Senegal 32%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "reasoning": "Norway (FIFA #31, Elo 1914) are narrow favourites over Senegal (FIFA #15, Elo 1860); the model is driven by their Elo gap of 54. The model gives Norway 42% / draw 26% / Senegal 32%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
     "players_to_watch": [
       {
         "player_id": "nor-erling-haaland",
@@ -3479,7 +3479,7 @@
   },
   {
     "id": "M042",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "I",
@@ -3499,7 +3499,7 @@
       "away": 0.388
     },
     "confidence": "high",
-    "reasoning": "France (Elo 2063, world #3) are clear favourites over Iraq (Elo 1607, #64), an Elo gap of 456. The model gives France 80% / draw 15% / Iraq 5%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
+    "reasoning": "France (FIFA #3, Elo 2063) are clear favourites over Iraq (FIFA #57, Elo 1607); the model is driven by their Elo gap of 456. The model gives France 80% / draw 15% / Iraq 5%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "fra-kylian-mbapp",
@@ -3573,7 +3573,7 @@
   },
   {
     "id": "M043",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "J",
@@ -3593,7 +3593,7 @@
       "away": 0.73
     },
     "confidence": "high",
-    "reasoning": "Argentina (Elo 2115, world #2) are clear favourites over Austria (Elo 1830, #22), an Elo gap of 285. The model gives Argentina 64% / draw 22% / Austria 14%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Argentina (FIFA #1, Elo 2115) are clear favourites over Austria (FIFA #24, Elo 1830); the model is driven by their Elo gap of 285. The model gives Argentina 64% / draw 22% / Austria 14%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "arg-lionel-messi",
@@ -3667,7 +3667,7 @@
   },
   {
     "id": "M044",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "J",
@@ -3687,7 +3687,7 @@
       "away": 1.484
     },
     "confidence": "medium",
-    "reasoning": "Algeria (Elo 1772, world #30) are favourites over Jordan (Elo 1680, #52), an Elo gap of 92. The model gives Jordan 28% / draw 26% / Algeria 46%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "Algeria (FIFA #28, Elo 1772) are favourites over Jordan (FIFA #63, Elo 1680); the model is driven by their Elo gap of 92. The model gives Jordan 28% / draw 26% / Algeria 46%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [
       {
         "player_id": "jor-ali-olwan",
@@ -3761,7 +3761,7 @@
   },
   {
     "id": "M045",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "L",
@@ -3781,7 +3781,7 @@
       "away": 0.272
     },
     "confidence": "high",
-    "reasoning": "England (Elo 2024, world #4) are clear favourites over Ghana (Elo 1510, #81), an Elo gap of 514. The model gives England 84% / draw 13% / Ghana 3%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
+    "reasoning": "England (FIFA #4, Elo 2024) are clear favourites over Ghana (FIFA #73, Elo 1510); the model is driven by their Elo gap of 514. The model gives England 84% / draw 13% / Ghana 3%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "eng-harry-kane",
@@ -3855,7 +3855,7 @@
   },
   {
     "id": "M046",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "L",
@@ -3875,7 +3875,7 @@
       "away": 1.664
     },
     "confidence": "medium",
-    "reasoning": "Croatia (Elo 1912, world #12) are favourites over Panama (Elo 1730, #38), an Elo gap of 182. The model gives Panama 21% / draw 24% / Croatia 55%, with a most-likely scoreline of 0-1. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "Croatia (FIFA #11, Elo 1912) are favourites over Panama (FIFA #34, Elo 1730); the model is driven by their Elo gap of 182. The model gives Panama 21% / draw 24% / Croatia 55%, with a most-likely scoreline of 0-1. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [
       {
         "player_id": "pan-jos-fajardo",
@@ -3949,7 +3949,7 @@
   },
   {
     "id": "M047",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "K",
@@ -3969,7 +3969,7 @@
       "away": 0.75
     },
     "confidence": "high",
-    "reasoning": "Portugal (Elo 1989, world #6) are clear favourites over Uzbekistan (Elo 1714, #41), an Elo gap of 275. The model gives Portugal 64% / draw 22% / Uzbekistan 15%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Portugal (FIFA #5, Elo 1989) are clear favourites over Uzbekistan (FIFA #50, Elo 1714); the model is driven by their Elo gap of 275. The model gives Portugal 64% / draw 22% / Uzbekistan 15%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "por-cristiano-ronaldo",
@@ -4043,7 +4043,7 @@
   },
   {
     "id": "M048",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "K",
@@ -4063,7 +4063,7 @@
       "away": 0.64
     },
     "confidence": "high",
-    "reasoning": "Colombia (Elo 1982, world #7) are clear favourites over DR Congo (Elo 1652, #55), an Elo gap of 330. The model gives Colombia 69% / draw 20% / DR Congo 11%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Colombia (FIFA #13, Elo 1982) are clear favourites over DR Congo (FIFA #46, Elo 1652); the model is driven by their Elo gap of 330. The model gives Colombia 69% / draw 20% / DR Congo 11%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "col-luis-d-az",
@@ -4137,7 +4137,7 @@
   },
   {
     "id": "M049",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "C",
@@ -4157,7 +4157,7 @@
       "away": 1.718
     },
     "confidence": "medium",
-    "reasoning": "Brazil (Elo 1991, world #5) are favourites over Scotland (Elo 1782, #25), an Elo gap of 209. The model gives Scotland 19% / draw 24% / Brazil 57%, with a most-likely scoreline of 0-1. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "Brazil (FIFA #6, Elo 1991) are favourites over Scotland (FIFA #42, Elo 1782); the model is driven by their Elo gap of 209. The model gives Scotland 19% / draw 24% / Brazil 57%, with a most-likely scoreline of 0-1. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [
       {
         "player_id": "sco-ch-adams",
@@ -4231,7 +4231,7 @@
   },
   {
     "id": "M050",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "C",
@@ -4251,7 +4251,7 @@
       "away": 0.742
     },
     "confidence": "high",
-    "reasoning": "Morocco (Elo 1827, world #23) are clear favourites over Haiti (Elo 1548, #73), an Elo gap of 279. The model gives Morocco 64% / draw 22% / Haiti 14%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Morocco (FIFA #7, Elo 1827) are clear favourites over Haiti (FIFA #83, Elo 1548); the model is driven by their Elo gap of 279. The model gives Morocco 64% / draw 22% / Haiti 14%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "mar-ayoub-el-kaabi",
@@ -4325,7 +4325,7 @@
   },
   {
     "id": "M051",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "B",
@@ -4345,7 +4345,7 @@
       "away": 1.182
     },
     "confidence": "low",
-    "reasoning": "Switzerland (Elo 1891, world #17) are narrow favourites over Canada (Elo 1767, #33), an Elo gap of 124. As a tournament host, Canada get a home-advantage bump worth ~65 Elo points in this projection. The model gives Switzerland 42% / draw 26% / Canada 31%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "reasoning": "Switzerland (FIFA #19, Elo 1891) are narrow favourites over Canada (FIFA #30, Elo 1767); the model is driven by their Elo gap of 124. As a tournament host, Canada get a home-advantage bump worth ~65 Elo points in this projection. The model gives Switzerland 42% / draw 26% / Canada 31%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
     "players_to_watch": [
       {
         "player_id": "sui-breel-embolo",
@@ -4419,7 +4419,7 @@
   },
   {
     "id": "M052",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "B",
@@ -4439,7 +4439,7 @@
       "away": 0.91
     },
     "confidence": "medium",
-    "reasoning": "Bosnia and Herzegovina (Elo 1616, world #60) are favourites over Qatar (Elo 1421, #96), an Elo gap of 195. The model gives Bosnia and Herzegovina 56% / draw 24% / Qatar 20%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "Bosnia and Herzegovina (FIFA #64, Elo 1616) are favourites over Qatar (FIFA #56, Elo 1421); the model is driven by their Elo gap of 195. The model gives Bosnia and Herzegovina 56% / draw 24% / Qatar 20%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [
       {
         "player_id": "bih-edin-d-eko",
@@ -4513,7 +4513,7 @@
   },
   {
     "id": "M053",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "A",
@@ -4533,7 +4533,7 @@
       "away": 1.768
     },
     "confidence": "medium",
-    "reasoning": "Mexico (Elo 1881, world #18) are favourites over Czechia (Elo 1712, #42), an Elo gap of 169. As a tournament host, Mexico get a home-advantage bump worth ~65 Elo points in this projection. The model gives Czechia 17% / draw 23% / Mexico 60%, with a most-likely scoreline of 0-1. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "Mexico (FIFA #14, Elo 1881) are favourites over Czechia (FIFA #40, Elo 1712); the model is driven by their Elo gap of 169. As a tournament host, Mexico get a home-advantage bump worth ~65 Elo points in this projection. The model gives Czechia 17% / draw 23% / Mexico 60%, with a most-likely scoreline of 0-1. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [
       {
         "player_id": "cze-patrik-schick",
@@ -4607,7 +4607,7 @@
   },
   {
     "id": "M054",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "A",
@@ -4627,7 +4627,7 @@
       "away": 1.85
     },
     "confidence": "high",
-    "reasoning": "South Korea (Elo 1786, world #24) are clear favourites over South Africa (Elo 1511, #80), an Elo gap of 275. The model gives South Africa 15% / draw 22% / South Korea 64%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
+    "reasoning": "South Korea (FIFA #25, Elo 1786) are clear favourites over South Africa (FIFA #60, Elo 1511); the model is driven by their Elo gap of 275. The model gives South Africa 15% / draw 22% / South Korea 64%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "rsa-lyle-foster",
@@ -4701,7 +4701,7 @@
   },
   {
     "id": "M055",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "E",
@@ -4721,7 +4721,7 @@
       "away": 1.822
     },
     "confidence": "high",
-    "reasoning": "Ivory Coast (Elo 1695, world #49) are clear favourites over Curaçao (Elo 1434, #91), an Elo gap of 261. The model gives Curaçao 15% / draw 22% / Ivory Coast 62%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Ivory Coast (FIFA #33, Elo 1695) are clear favourites over Curaçao (FIFA #82, Elo 1434); the model is driven by their Elo gap of 261. The model gives Curaçao 15% / draw 22% / Ivory Coast 62%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "cuw-gervane-kastaneer",
@@ -4795,7 +4795,7 @@
   },
   {
     "id": "M056",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "E",
@@ -4815,7 +4815,7 @@
       "away": 1.288
     },
     "confidence": "low",
-    "reasoning": "Ecuador (Elo 1938, world #9) are narrow favourites over Germany (Elo 1932, #10), an Elo gap of 6. The model gives Ecuador 37% / draw 26% / Germany 36%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "reasoning": "Ecuador (FIFA #23, Elo 1938) are narrow favourites over Germany (FIFA #10, Elo 1932); the model is driven by their Elo gap of 6. The model gives Ecuador 37% / draw 26% / Germany 36%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
     "players_to_watch": [
       {
         "player_id": "ecu-enner-valencia",
@@ -4889,7 +4889,7 @@
   },
   {
     "id": "M057",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "F",
@@ -4909,7 +4909,7 @@
       "away": 0.912
     },
     "confidence": "medium",
-    "reasoning": "Japan (Elo 1906, world #14) are favourites over Sweden (Elo 1712, #42), an Elo gap of 194. The model gives Japan 56% / draw 24% / Sweden 20%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "Japan (FIFA #18, Elo 1906) are favourites over Sweden (FIFA #38, Elo 1712); the model is driven by their Elo gap of 194. The model gives Japan 56% / draw 24% / Sweden 20%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [
       {
         "player_id": "jpn-ayase-ueda",
@@ -4983,7 +4983,7 @@
   },
   {
     "id": "M058",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "F",
@@ -5003,7 +5003,7 @@
       "away": 1.94
     },
     "confidence": "high",
-    "reasoning": "Netherlands (Elo 1948, world #8) are clear favourites over Tunisia (Elo 1628, #58), an Elo gap of 320. The model gives Tunisia 12% / draw 20% / Netherlands 68%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Netherlands (FIFA #8, Elo 1948) are clear favourites over Tunisia (FIFA #45, Elo 1628); the model is driven by their Elo gap of 320. The model gives Tunisia 12% / draw 20% / Netherlands 68%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "tun-firas-chaouat",
@@ -5077,7 +5077,7 @@
   },
   {
     "id": "M059",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "D",
@@ -5097,7 +5097,7 @@
       "away": 1.168
     },
     "confidence": "low",
-    "reasoning": "Türkiye (Elo 1911, world #13) are narrow favourites over United States (Elo 1780, #26), an Elo gap of 131. As a tournament host, United States get a home-advantage bump worth ~65 Elo points in this projection. The model gives Türkiye 43% / draw 26% / United States 31%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "reasoning": "Türkiye (FIFA #22, Elo 1911) are narrow favourites over United States (FIFA #17, Elo 1780); the model is driven by their Elo gap of 131. As a tournament host, United States get a home-advantage bump worth ~65 Elo points in this projection. The model gives Türkiye 43% / draw 26% / United States 31%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
     "players_to_watch": [
       {
         "player_id": "tur-kerem-akt-rko-lu",
@@ -5171,7 +5171,7 @@
   },
   {
     "id": "M060",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "D",
@@ -5191,7 +5191,7 @@
       "away": 1.294
     },
     "confidence": "low",
-    "reasoning": "Paraguay (Elo 1780, world #26) are narrow favourites over Australia (Elo 1777, #29), an Elo gap of 3. The model gives Paraguay 37% / draw 26% / Australia 37%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "reasoning": "Paraguay (FIFA #41, Elo 1780) are narrow favourites over Australia (FIFA #27, Elo 1777); the model is driven by their Elo gap of 3. The model gives Paraguay 37% / draw 26% / Australia 37%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
     "players_to_watch": [
       {
         "player_id": "par-antonio-sanabria",
@@ -5265,7 +5265,7 @@
   },
   {
     "id": "M061",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "I",
@@ -5285,7 +5285,7 @@
       "away": 1.598
     },
     "confidence": "medium",
-    "reasoning": "France (Elo 2063, world #3) are favourites over Norway (Elo 1914, #11), an Elo gap of 149. The model gives Norway 24% / draw 25% / France 51%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "France (FIFA #3, Elo 2063) are favourites over Norway (FIFA #31, Elo 1914); the model is driven by their Elo gap of 149. The model gives Norway 24% / draw 25% / France 51%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [
       {
         "player_id": "nor-erling-haaland",
@@ -5359,7 +5359,7 @@
   },
   {
     "id": "M062",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "I",
@@ -5379,7 +5379,7 @@
       "away": 0.794
     },
     "confidence": "high",
-    "reasoning": "Senegal (Elo 1860, world #21) are clear favourites over Iraq (Elo 1607, #64), an Elo gap of 253. The model gives Senegal 61% / draw 23% / Iraq 16%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Senegal (FIFA #15, Elo 1860) are clear favourites over Iraq (FIFA #57, Elo 1607); the model is driven by their Elo gap of 253. The model gives Senegal 61% / draw 23% / Iraq 16%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "sen-sadio-man",
@@ -5453,7 +5453,7 @@
   },
   {
     "id": "M063",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "G",
@@ -5473,7 +5473,7 @@
       "away": 1.452
     },
     "confidence": "low",
-    "reasoning": "Iran (Elo 1772, world #30) are narrow favourites over Egypt (Elo 1696, #48), an Elo gap of 76. The model gives Egypt 30% / draw 26% / Iran 44%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "reasoning": "Iran (FIFA #20, Elo 1772) are narrow favourites over Egypt (FIFA #29, Elo 1696); the model is driven by their Elo gap of 76. The model gives Egypt 30% / draw 26% / Iran 44%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
     "players_to_watch": [
       {
         "player_id": "egy-mohamed-salah",
@@ -5547,7 +5547,7 @@
   },
   {
     "id": "M064",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "G",
@@ -5567,7 +5567,7 @@
       "away": 1.964
     },
     "confidence": "high",
-    "reasoning": "Belgium (Elo 1894, world #15) are clear favourites over New Zealand (Elo 1562, #72), an Elo gap of 332. The model gives New Zealand 11% / draw 20% / Belgium 69%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Belgium (FIFA #9, Elo 1894) are clear favourites over New Zealand (FIFA #85, Elo 1562); the model is driven by their Elo gap of 332. The model gives New Zealand 11% / draw 20% / Belgium 69%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "nzl-chris-wood",
@@ -5641,7 +5641,7 @@
   },
   {
     "id": "M065",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "H",
@@ -5661,7 +5661,7 @@
       "away": 1.296
     },
     "confidence": "low",
-    "reasoning": "Cape Verde (Elo 1578, world #68) are narrow favourites over Saudi Arabia (Elo 1576, #69), an Elo gap of 2. The model gives Cape Verde 37% / draw 26% / Saudi Arabia 37%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "reasoning": "Cape Verde (FIFA #67, Elo 1578) are narrow favourites over Saudi Arabia (FIFA #61, Elo 1576); the model is driven by their Elo gap of 2. The model gives Cape Verde 37% / draw 26% / Saudi Arabia 37%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
     "players_to_watch": [
       {
         "player_id": "cpv-ryan-mendes",
@@ -5735,7 +5735,7 @@
   },
   {
     "id": "M066",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "H",
@@ -5755,7 +5755,7 @@
       "away": 1.83
     },
     "confidence": "high",
-    "reasoning": "Spain (Elo 2157, world #1) are clear favourites over Uruguay (Elo 1892, #16), an Elo gap of 265. The model gives Uruguay 15% / draw 22% / Spain 63%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Spain (FIFA #2, Elo 2157) are clear favourites over Uruguay (FIFA #16, Elo 1892); the model is driven by their Elo gap of 265. The model gives Uruguay 15% / draw 22% / Spain 63%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "uru-darwin-n-ez",
@@ -5829,7 +5829,7 @@
   },
   {
     "id": "M067",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "L",
@@ -5849,7 +5849,7 @@
       "away": 1.888
     },
     "confidence": "high",
-    "reasoning": "England (Elo 2024, world #4) are clear favourites over Panama (Elo 1730, #38), an Elo gap of 294. The model gives Panama 13% / draw 21% / England 65%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
+    "reasoning": "England (FIFA #4, Elo 2024) are clear favourites over Panama (FIFA #34, Elo 1730); the model is driven by their Elo gap of 294. The model gives Panama 13% / draw 21% / England 65%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "pan-jos-fajardo",
@@ -5923,7 +5923,7 @@
   },
   {
     "id": "M068",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "L",
@@ -5943,7 +5943,7 @@
       "away": 0.496
     },
     "confidence": "high",
-    "reasoning": "Croatia (Elo 1912, world #12) are clear favourites over Ghana (Elo 1510, #81), an Elo gap of 402. The model gives Croatia 75% / draw 17% / Ghana 7%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Croatia (FIFA #11, Elo 1912) are clear favourites over Ghana (FIFA #73, Elo 1510); the model is driven by their Elo gap of 402. The model gives Croatia 75% / draw 17% / Ghana 7%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "cro-ivan-peri-i",
@@ -6017,7 +6017,7 @@
   },
   {
     "id": "M069",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "J",
@@ -6037,7 +6037,7 @@
       "away": 1.416
     },
     "confidence": "low",
-    "reasoning": "Austria (Elo 1830, world #22) are narrow favourites over Algeria (Elo 1772, #30), an Elo gap of 58. The model gives Algeria 31% / draw 26% / Austria 42%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "reasoning": "Austria (FIFA #24, Elo 1830) are narrow favourites over Algeria (FIFA #28, Elo 1772); the model is driven by their Elo gap of 58. The model gives Algeria 31% / draw 26% / Austria 42%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
     "players_to_watch": [
       {
         "player_id": "alg-riyad-mahrez",
@@ -6111,7 +6111,7 @@
   },
   {
     "id": "M070",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "J",
@@ -6131,7 +6131,7 @@
       "away": 2.17
     },
     "confidence": "high",
-    "reasoning": "Argentina (Elo 2115, world #2) are clear favourites over Jordan (Elo 1680, #52), an Elo gap of 435. The model gives Jordan 6% / draw 16% / Argentina 78%, with a most-likely scoreline of 0-2. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Argentina (FIFA #1, Elo 2115) are clear favourites over Jordan (FIFA #63, Elo 1680); the model is driven by their Elo gap of 435. The model gives Jordan 6% / draw 16% / Argentina 78%, with a most-likely scoreline of 0-2. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [
       {
         "player_id": "jor-ali-olwan",
@@ -6205,7 +6205,7 @@
   },
   {
     "id": "M071",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "K",
@@ -6225,7 +6225,7 @@
       "away": 1.314
     },
     "confidence": "low",
-    "reasoning": "Portugal (Elo 1989, world #6) are narrow favourites over Colombia (Elo 1982, #7), an Elo gap of 7. The model gives Colombia 36% / draw 26% / Portugal 37%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "reasoning": "Portugal (FIFA #5, Elo 1989) are narrow favourites over Colombia (FIFA #13, Elo 1982); the model is driven by their Elo gap of 7. The model gives Colombia 36% / draw 26% / Portugal 37%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
     "players_to_watch": [
       {
         "player_id": "col-luis-d-az",
@@ -6299,7 +6299,7 @@
   },
   {
     "id": "M072",
-    "generated_at": "2026-06-13T20:45:56.585724+00:00",
+    "generated_at": "2026-06-13T21:25:59.089597+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "K",
@@ -6319,7 +6319,7 @@
       "away": 1.424
     },
     "confidence": "low",
-    "reasoning": "Uzbekistan (Elo 1714, world #41) are narrow favourites over DR Congo (Elo 1652, #55), an Elo gap of 62. The model gives DR Congo 31% / draw 26% / Uzbekistan 43%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "reasoning": "Uzbekistan (FIFA #50, Elo 1714) are narrow favourites over DR Congo (FIFA #46, Elo 1652); the model is driven by their Elo gap of 62. The model gives DR Congo 31% / draw 26% / Uzbekistan 43%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
     "players_to_watch": [
       {
         "player_id": "cod-c-dric-bakambu",
