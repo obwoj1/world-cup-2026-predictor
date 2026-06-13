@@ -26,7 +26,9 @@ from collections import defaultdict
 
 import numpy as np
 
-from common import TEAMS_FILE, FIXTURES_FILE, MODEL_VERSION, DATA_DIR, load_json, save_json
+from common import (
+    TEAMS_FILE, FIXTURES_FILE, RESULTS_FILE, MODEL_VERSION, DATA_DIR, load_json, save_json,
+)
 from model import expected_goals
 
 PROJECTIONS_FILE = DATA_DIR / "projections.json"
@@ -107,6 +109,8 @@ def run(sims: int, seed: int = 42) -> dict:
     rng = np.random.default_rng(seed)
     teams = {t["id"]: t for t in load_json(TEAMS_FILE)}
     fixtures = [f for f in load_json(FIXTURES_FILE) if f["stage"] == "group"]
+    # Actual results for matches already played are fixed, not re-simulated.
+    played = {r["id"]: (r["home_goals"], r["away_goals"]) for r in load_json(RESULTS_FILE)}
 
     group_fixtures: dict[str, list] = defaultdict(list)
     for f in fixtures:
@@ -125,7 +129,10 @@ def run(sims: int, seed: int = 42) -> dict:
         for g, fs in group_fixtures.items():
             for fx in fs:
                 h, a = fx["home"], fx["away"]
-                gh, ga = simulate_match_goals(teams[h]["elo"], teams[a]["elo"], h, a, rng)
+                if fx["id"] in played:
+                    gh, ga = played[fx["id"]]  # actual result, fixed
+                else:
+                    gh, ga = simulate_match_goals(teams[h]["elo"], teams[a]["elo"], h, a, rng)
                 standings[g][h]["gf"] += gh
                 standings[g][a]["gf"] += ga
                 standings[g][h]["gd"] += gh - ga

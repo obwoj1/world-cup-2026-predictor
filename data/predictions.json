@@ -1,471 +1,65 @@
 [
   {
-    "id": "M001",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "A",
-    "home": "MEX",
-    "away": "RSA",
-    "probabilities": {
-      "home_win": 0.7785,
-      "draw": 0.1615,
-      "away_win": 0.06
-    },
-    "predicted_scoreline": {
-      "home": 2,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 2.17,
-      "away": 0.43
-    },
-    "confidence": "high",
-    "reasoning": "Mexico (Elo 1881, world #18) are clear favourites over South Africa (Elo 1511, #80), an Elo gap of 370. As a tournament host, Mexico get a home-advantage bump worth ~65 Elo points in this projection. The model gives Mexico 78% / draw 16% / South Africa 6%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:MEX",
-      "teams.json:RSA"
-    ]
-  },
-  {
-    "id": "M002",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "A",
-    "home": "KOR",
-    "away": "CZE",
-    "probabilities": {
-      "home_win": 0.4388,
-      "draw": 0.2605,
-      "away_win": 0.3007
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 1
-    },
-    "expected_goals": {
-      "home": 1.448,
-      "away": 1.152
-    },
-    "confidence": "low",
-    "reasoning": "South Korea (Elo 1786, world #24) are narrow favourites over Czechia (Elo 1712, #42), an Elo gap of 74. The model gives South Korea 44% / draw 26% / Czechia 30%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:KOR",
-      "teams.json:CZE"
-    ]
-  },
-  {
-    "id": "M003",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "A",
-    "home": "MEX",
-    "away": "CZE",
-    "probabilities": {
-      "home_win": 0.5958,
-      "draw": 0.2309,
-      "away_win": 0.1732
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 1.768,
-      "away": 0.832
-    },
-    "confidence": "medium",
-    "reasoning": "Mexico (Elo 1881, world #18) are favourites over Czechia (Elo 1712, #42), an Elo gap of 169. As a tournament host, Mexico get a home-advantage bump worth ~65 Elo points in this projection. The model gives Mexico 60% / draw 23% / Czechia 17%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:MEX",
-      "teams.json:CZE"
-    ]
-  },
-  {
-    "id": "M004",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "A",
-    "home": "RSA",
-    "away": "KOR",
-    "probabilities": {
-      "home_win": 0.1456,
-      "draw": 0.2191,
-      "away_win": 0.6353
-    },
-    "predicted_scoreline": {
-      "home": 0,
-      "away": 1
-    },
-    "expected_goals": {
-      "home": 0.75,
-      "away": 1.85
-    },
-    "confidence": "high",
-    "reasoning": "South Korea (Elo 1786, world #24) are clear favourites over South Africa (Elo 1511, #80), an Elo gap of 275. The model gives South Africa 15% / draw 22% / South Korea 64%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:RSA",
-      "teams.json:KOR"
-    ]
-  },
-  {
     "id": "M005",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "A",
-    "home": "MEX",
-    "away": "KOR",
-    "probabilities": {
-      "home_win": 0.5233,
-      "draw": 0.2481,
-      "away_win": 0.2286
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 1.62,
-      "away": 0.98
-    },
-    "confidence": "medium",
-    "reasoning": "Mexico (Elo 1881, world #18) are favourites over South Korea (Elo 1786, #24), an Elo gap of 95. As a tournament host, Mexico get a home-advantage bump worth ~65 Elo points in this projection. The model gives Mexico 52% / draw 25% / South Korea 23%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:MEX",
-      "teams.json:KOR"
-    ]
-  },
-  {
-    "id": "M006",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "A",
-    "home": "CZE",
-    "away": "RSA",
-    "probabilities": {
-      "home_win": 0.5636,
-      "draw": 0.2393,
-      "away_win": 0.1971
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 1.702,
-      "away": 0.898
-    },
-    "confidence": "medium",
-    "reasoning": "Czechia (Elo 1712, world #42) are favourites over South Africa (Elo 1511, #80), an Elo gap of 201. The model gives Czechia 56% / draw 24% / South Africa 20%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:CZE",
-      "teams.json:RSA"
-    ]
-  },
-  {
-    "id": "M007",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "B",
-    "home": "SUI",
-    "away": "QAT",
-    "probabilities": {
-      "home_win": 0.8065,
-      "draw": 0.1474,
-      "away_win": 0.0461
-    },
-    "predicted_scoreline": {
-      "home": 2,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 2.24,
-      "away": 0.36
-    },
-    "confidence": "high",
-    "reasoning": "Switzerland (Elo 1891, world #17) are clear favourites over Qatar (Elo 1421, #96), an Elo gap of 470. The model gives Switzerland 81% / draw 15% / Qatar 5%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:SUI",
-      "teams.json:QAT"
-    ]
-  },
-  {
-    "id": "M008",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "B",
-    "home": "CAN",
-    "away": "BIH",
-    "probabilities": {
-      "home_win": 0.5783,
-      "draw": 0.2356,
-      "away_win": 0.1861
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 1.732,
-      "away": 0.868
-    },
-    "confidence": "medium",
-    "reasoning": "Canada (Elo 1767, world #33) are favourites over Bosnia and Herzegovina (Elo 1616, #60), an Elo gap of 151. As a tournament host, Canada get a home-advantage bump worth ~65 Elo points in this projection. The model gives Canada 58% / draw 24% / Bosnia and Herzegovina 19%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:CAN",
-      "teams.json:BIH"
-    ]
-  },
-  {
-    "id": "M009",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "B",
-    "home": "SUI",
-    "away": "BIH",
-    "probabilities": {
-      "home_win": 0.6353,
-      "draw": 0.2191,
-      "away_win": 0.1456
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 1.85,
-      "away": 0.75
-    },
-    "confidence": "high",
-    "reasoning": "Switzerland (Elo 1891, world #17) are clear favourites over Bosnia and Herzegovina (Elo 1616, #60), an Elo gap of 275. The model gives Switzerland 64% / draw 22% / Bosnia and Herzegovina 15%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:SUI",
-      "teams.json:BIH"
-    ]
-  },
-  {
-    "id": "M010",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "B",
-    "home": "QAT",
-    "away": "CAN",
-    "probabilities": {
-      "home_win": 0.0705,
-      "draw": 0.171,
-      "away_win": 0.7585
-    },
-    "predicted_scoreline": {
-      "home": 0,
-      "away": 2
-    },
-    "expected_goals": {
-      "home": 0.478,
-      "away": 2.122
-    },
-    "confidence": "high",
-    "reasoning": "Canada (Elo 1767, world #33) are clear favourites over Qatar (Elo 1421, #96), an Elo gap of 346. As a tournament host, Canada get a home-advantage bump worth ~65 Elo points in this projection. The model gives Qatar 7% / draw 17% / Canada 76%, with a most-likely scoreline of 0-2. The rating gap is large enough to call this high confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:QAT",
-      "teams.json:CAN"
-    ]
-  },
-  {
-    "id": "M011",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "B",
-    "home": "SUI",
-    "away": "CAN",
-    "probabilities": {
-      "home_win": 0.4243,
-      "draw": 0.2617,
-      "away_win": 0.314
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 1
-    },
-    "expected_goals": {
-      "home": 1.418,
-      "away": 1.182
-    },
-    "confidence": "low",
-    "reasoning": "Switzerland (Elo 1891, world #17) are narrow favourites over Canada (Elo 1767, #33), an Elo gap of 124. As a tournament host, Canada get a home-advantage bump worth ~65 Elo points in this projection. The model gives Switzerland 42% / draw 26% / Canada 31%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:SUI",
-      "teams.json:CAN"
-    ]
-  },
-  {
-    "id": "M012",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "B",
-    "home": "BIH",
-    "away": "QAT",
-    "probabilities": {
-      "home_win": 0.5577,
-      "draw": 0.2407,
-      "away_win": 0.2016
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 1.69,
-      "away": 0.91
-    },
-    "confidence": "medium",
-    "reasoning": "Bosnia and Herzegovina (Elo 1616, world #60) are favourites over Qatar (Elo 1421, #96), an Elo gap of 195. The model gives Bosnia and Herzegovina 56% / draw 24% / Qatar 20%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:BIH",
-      "teams.json:QAT"
-    ]
-  },
-  {
-    "id": "M013",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "C",
-    "home": "BRA",
-    "away": "HAI",
-    "probabilities": {
-      "home_win": 0.785,
-      "draw": 0.1583,
-      "away_win": 0.0567
-    },
-    "predicted_scoreline": {
-      "home": 2,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 2.186,
-      "away": 0.414
-    },
-    "confidence": "high",
-    "reasoning": "Brazil (Elo 1991, world #5) are clear favourites over Haiti (Elo 1548, #73), an Elo gap of 443. The model gives Brazil 78% / draw 16% / Haiti 6%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:BRA",
-      "teams.json:HAI"
-    ]
-  },
-  {
-    "id": "M014",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "C",
-    "home": "MAR",
-    "away": "SCO",
-    "probabilities": {
-      "home_win": 0.4108,
-      "draw": 0.2626,
-      "away_win": 0.3266
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 1
-    },
-    "expected_goals": {
-      "home": 1.39,
-      "away": 1.21
-    },
-    "confidence": "low",
-    "reasoning": "Morocco (Elo 1827, world #23) are narrow favourites over Scotland (Elo 1782, #25), an Elo gap of 45. The model gives Morocco 41% / draw 26% / Scotland 33%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:MAR",
-      "teams.json:SCO"
-    ]
-  },
-  {
-    "id": "M015",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "C",
-    "home": "BRA",
-    "away": "SCO",
-    "probabilities": {
-      "home_win": 0.5715,
-      "draw": 0.2374,
-      "away_win": 0.1912
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 1.718,
-      "away": 0.882
-    },
-    "confidence": "medium",
-    "reasoning": "Brazil (Elo 1991, world #5) are favourites over Scotland (Elo 1782, #25), an Elo gap of 209. The model gives Brazil 57% / draw 24% / Scotland 19%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:BRA",
-      "teams.json:SCO"
-    ]
-  },
-  {
-    "id": "M016",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "C",
     "home": "HAI",
-    "away": "MAR",
+    "away": "SCO",
     "probabilities": {
-      "home_win": 0.143,
-      "draw": 0.2179,
-      "away_win": 0.6391
+      "home_win": 0.1732,
+      "draw": 0.2309,
+      "away_win": 0.5958
     },
     "predicted_scoreline": {
       "home": 0,
       "away": 1
     },
     "expected_goals": {
-      "home": 0.742,
-      "away": 1.858
+      "home": 0.832,
+      "away": 1.768
     },
-    "confidence": "high",
-    "reasoning": "Morocco (Elo 1827, world #23) are clear favourites over Haiti (Elo 1548, #73), an Elo gap of 279. The model gives Haiti 14% / draw 22% / Morocco 64%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
+    "confidence": "medium",
+    "reasoning": "Scotland (Elo 1782, world #25) are favourites over Haiti (Elo 1548, #73), an Elo gap of 234. The model gives Haiti 17% / draw 23% / Scotland 60%, with a most-likely scoreline of 0-1. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [],
     "evidence_refs": [
       "teams.json:HAI",
-      "teams.json:MAR"
+      "teams.json:SCO"
     ]
   },
   {
-    "id": "M017",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
+    "id": "M006",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "D",
+    "home": "AUS",
+    "away": "TUR",
+    "probabilities": {
+      "home_win": 0.2496,
+      "draw": 0.2528,
+      "away_win": 0.4977
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 1.032,
+      "away": 1.568
+    },
+    "confidence": "medium",
+    "reasoning": "Türkiye (Elo 1911, world #13) are favourites over Australia (Elo 1777, #29), an Elo gap of 134. The model gives Australia 25% / draw 25% / Türkiye 50%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:AUS",
+      "teams.json:TUR"
+    ]
+  },
+  {
+    "id": "M007",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "C",
@@ -493,501 +87,95 @@
     ]
   },
   {
-    "id": "M018",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
+    "id": "M008",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
     "model_version": "0.1.0",
     "stage": "group",
-    "group": "C",
-    "home": "SCO",
-    "away": "HAI",
+    "group": "B",
+    "home": "QAT",
+    "away": "SUI",
     "probabilities": {
-      "home_win": 0.5958,
-      "draw": 0.2309,
-      "away_win": 0.1732
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 1.768,
-      "away": 0.832
-    },
-    "confidence": "medium",
-    "reasoning": "Scotland (Elo 1782, world #25) are favourites over Haiti (Elo 1548, #73), an Elo gap of 234. The model gives Scotland 60% / draw 23% / Haiti 17%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:SCO",
-      "teams.json:HAI"
-    ]
-  },
-  {
-    "id": "M019",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "D",
-    "home": "TUR",
-    "away": "AUS",
-    "probabilities": {
-      "home_win": 0.4977,
-      "draw": 0.2528,
-      "away_win": 0.2496
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 1
-    },
-    "expected_goals": {
-      "home": 1.568,
-      "away": 1.032
-    },
-    "confidence": "medium",
-    "reasoning": "Türkiye (Elo 1911, world #13) are favourites over Australia (Elo 1777, #29), an Elo gap of 134. The model gives Türkiye 50% / draw 25% / Australia 25%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:TUR",
-      "teams.json:AUS"
-    ]
-  },
-  {
-    "id": "M020",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "D",
-    "home": "USA",
-    "away": "PAR",
-    "probabilities": {
-      "home_win": 0.4301,
-      "draw": 0.2613,
-      "away_win": 0.3086
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 1
-    },
-    "expected_goals": {
-      "home": 1.43,
-      "away": 1.17
-    },
-    "confidence": "low",
-    "reasoning": "United States (Elo 1780, world #26) are narrow favourites over Paraguay (Elo 1780, #26), an Elo gap of 0. As a tournament host, United States get a home-advantage bump worth ~65 Elo points in this projection. The model gives United States 43% / draw 26% / Paraguay 31%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:USA",
-      "teams.json:PAR"
-    ]
-  },
-  {
-    "id": "M021",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "D",
-    "home": "TUR",
-    "away": "PAR",
-    "probabilities": {
-      "home_win": 0.4947,
-      "draw": 0.2533,
-      "away_win": 0.252
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 1
-    },
-    "expected_goals": {
-      "home": 1.562,
-      "away": 1.038
-    },
-    "confidence": "medium",
-    "reasoning": "Türkiye (Elo 1911, world #13) are favourites over Paraguay (Elo 1780, #26), an Elo gap of 131. The model gives Türkiye 49% / draw 25% / Paraguay 25%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:TUR",
-      "teams.json:PAR"
-    ]
-  },
-  {
-    "id": "M022",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "D",
-    "home": "AUS",
-    "away": "USA",
-    "probabilities": {
-      "home_win": 0.306,
-      "draw": 0.261,
-      "away_win": 0.433
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 1
-    },
-    "expected_goals": {
-      "home": 1.164,
-      "away": 1.436
-    },
-    "confidence": "low",
-    "reasoning": "United States (Elo 1780, world #26) are narrow favourites over Australia (Elo 1777, #29), an Elo gap of 3. As a tournament host, United States get a home-advantage bump worth ~65 Elo points in this projection. The model gives Australia 31% / draw 26% / United States 43%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:AUS",
-      "teams.json:USA"
-    ]
-  },
-  {
-    "id": "M023",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "D",
-    "home": "TUR",
-    "away": "USA",
-    "probabilities": {
-      "home_win": 0.4311,
-      "draw": 0.2612,
-      "away_win": 0.3077
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 1
-    },
-    "expected_goals": {
-      "home": 1.432,
-      "away": 1.168
-    },
-    "confidence": "low",
-    "reasoning": "Türkiye (Elo 1911, world #13) are narrow favourites over United States (Elo 1780, #26), an Elo gap of 131. As a tournament host, United States get a home-advantage bump worth ~65 Elo points in this projection. The model gives Türkiye 43% / draw 26% / United States 31%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:TUR",
-      "teams.json:USA"
-    ]
-  },
-  {
-    "id": "M024",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "D",
-    "home": "PAR",
-    "away": "AUS",
-    "probabilities": {
-      "home_win": 0.3709,
-      "draw": 0.2639,
-      "away_win": 0.3652
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 1
-    },
-    "expected_goals": {
-      "home": 1.306,
-      "away": 1.294
-    },
-    "confidence": "low",
-    "reasoning": "Paraguay (Elo 1780, world #26) are narrow favourites over Australia (Elo 1777, #29), an Elo gap of 3. The model gives Paraguay 37% / draw 26% / Australia 37%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:PAR",
-      "teams.json:AUS"
-    ]
-  },
-  {
-    "id": "M025",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "E",
-    "home": "ECU",
-    "away": "CUW",
-    "probabilities": {
-      "home_win": 0.8324,
-      "draw": 0.1334,
-      "away_win": 0.0342
-    },
-    "predicted_scoreline": {
-      "home": 2,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 2.308,
-      "away": 0.292
-    },
-    "confidence": "high",
-    "reasoning": "Ecuador (Elo 1938, world #9) are clear favourites over Curaçao (Elo 1434, #91), an Elo gap of 504. The model gives Ecuador 83% / draw 13% / Curaçao 3%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:ECU",
-      "teams.json:CUW"
-    ]
-  },
-  {
-    "id": "M026",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "E",
-    "home": "GER",
-    "away": "CIV",
-    "probabilities": {
-      "home_win": 0.5988,
-      "draw": 0.2301,
-      "away_win": 0.1711
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 1.774,
-      "away": 0.826
-    },
-    "confidence": "medium",
-    "reasoning": "Germany (Elo 1932, world #10) are favourites over Ivory Coast (Elo 1695, #49), an Elo gap of 237. The model gives Germany 60% / draw 23% / Ivory Coast 17%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:GER",
-      "teams.json:CIV"
-    ]
-  },
-  {
-    "id": "M027",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "E",
-    "home": "ECU",
-    "away": "CIV",
-    "probabilities": {
-      "home_win": 0.6046,
-      "draw": 0.2284,
-      "away_win": 0.167
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 1.786,
-      "away": 0.814
-    },
-    "confidence": "high",
-    "reasoning": "Ecuador (Elo 1938, world #9) are clear favourites over Ivory Coast (Elo 1695, #49), an Elo gap of 243. The model gives Ecuador 60% / draw 23% / Ivory Coast 17%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:ECU",
-      "teams.json:CIV"
-    ]
-  },
-  {
-    "id": "M028",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "E",
-    "home": "CUW",
-    "away": "GER",
-    "probabilities": {
-      "home_win": 0.0362,
-      "draw": 0.1359,
-      "away_win": 0.8279
+      "home_win": 0.0461,
+      "draw": 0.1474,
+      "away_win": 0.8065
     },
     "predicted_scoreline": {
       "home": 0,
       "away": 2
     },
     "expected_goals": {
-      "home": 0.304,
-      "away": 2.296
+      "home": 0.36,
+      "away": 2.24
     },
     "confidence": "high",
-    "reasoning": "Germany (Elo 1932, world #10) are clear favourites over Curaçao (Elo 1434, #91), an Elo gap of 498. The model gives Curaçao 4% / draw 14% / Germany 83%, with a most-likely scoreline of 0-2. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Switzerland (Elo 1891, world #17) are clear favourites over Qatar (Elo 1421, #96), an Elo gap of 470. The model gives Qatar 5% / draw 15% / Switzerland 81%, with a most-likely scoreline of 0-2. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [],
     "evidence_refs": [
-      "teams.json:CUW",
-      "teams.json:GER"
+      "teams.json:QAT",
+      "teams.json:SUI"
     ]
   },
   {
-    "id": "M029",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "E",
-    "home": "ECU",
-    "away": "GER",
-    "probabilities": {
-      "home_win": 0.3737,
-      "draw": 0.2639,
-      "away_win": 0.3624
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 1
-    },
-    "expected_goals": {
-      "home": 1.312,
-      "away": 1.288
-    },
-    "confidence": "low",
-    "reasoning": "Ecuador (Elo 1938, world #9) are narrow favourites over Germany (Elo 1932, #10), an Elo gap of 6. The model gives Ecuador 37% / draw 26% / Germany 36%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:ECU",
-      "teams.json:GER"
-    ]
-  },
-  {
-    "id": "M030",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
+    "id": "M009",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "E",
     "home": "CIV",
-    "away": "CUW",
+    "away": "ECU",
     "probabilities": {
-      "home_win": 0.6219,
-      "draw": 0.2233,
-      "away_win": 0.1548
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 1.822,
-      "away": 0.778
-    },
-    "confidence": "high",
-    "reasoning": "Ivory Coast (Elo 1695, world #49) are clear favourites over Curaçao (Elo 1434, #91), an Elo gap of 261. The model gives Ivory Coast 62% / draw 22% / Curaçao 15%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:CIV",
-      "teams.json:CUW"
-    ]
-  },
-  {
-    "id": "M031",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "F",
-    "home": "NED",
-    "away": "TUN",
-    "probabilities": {
-      "home_win": 0.6776,
-      "draw": 0.2045,
-      "away_win": 0.1179
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 1.94,
-      "away": 0.66
-    },
-    "confidence": "high",
-    "reasoning": "Netherlands (Elo 1948, world #8) are clear favourites over Tunisia (Elo 1628, #58), an Elo gap of 320. The model gives Netherlands 68% / draw 20% / Tunisia 12%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:NED",
-      "teams.json:TUN"
-    ]
-  },
-  {
-    "id": "M032",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "F",
-    "home": "JPN",
-    "away": "SWE",
-    "probabilities": {
-      "home_win": 0.5568,
-      "draw": 0.2409,
-      "away_win": 0.2023
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 1.688,
-      "away": 0.912
-    },
-    "confidence": "medium",
-    "reasoning": "Japan (Elo 1906, world #14) are favourites over Sweden (Elo 1712, #42), an Elo gap of 194. The model gives Japan 56% / draw 24% / Sweden 20%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:JPN",
-      "teams.json:SWE"
-    ]
-  },
-  {
-    "id": "M033",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "F",
-    "home": "NED",
-    "away": "SWE",
-    "probabilities": {
-      "home_win": 0.5978,
-      "draw": 0.2304,
-      "away_win": 0.1718
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 1.772,
-      "away": 0.828
-    },
-    "confidence": "medium",
-    "reasoning": "Netherlands (Elo 1948, world #8) are favourites over Sweden (Elo 1712, #42), an Elo gap of 236. The model gives Netherlands 60% / draw 23% / Sweden 17%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:NED",
-      "teams.json:SWE"
-    ]
-  },
-  {
-    "id": "M034",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "F",
-    "home": "TUN",
-    "away": "JPN",
-    "probabilities": {
-      "home_win": 0.1437,
-      "draw": 0.2182,
-      "away_win": 0.6382
+      "home_win": 0.167,
+      "draw": 0.2284,
+      "away_win": 0.6046
     },
     "predicted_scoreline": {
       "home": 0,
       "away": 1
     },
     "expected_goals": {
-      "home": 0.744,
-      "away": 1.856
+      "home": 0.814,
+      "away": 1.786
     },
     "confidence": "high",
-    "reasoning": "Japan (Elo 1906, world #14) are clear favourites over Tunisia (Elo 1628, #58), an Elo gap of 278. The model gives Tunisia 14% / draw 22% / Japan 64%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Ecuador (Elo 1938, world #9) are clear favourites over Ivory Coast (Elo 1695, #49), an Elo gap of 243. The model gives Ivory Coast 17% / draw 23% / Ecuador 60%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [],
     "evidence_refs": [
-      "teams.json:TUN",
-      "teams.json:JPN"
+      "teams.json:CIV",
+      "teams.json:ECU"
     ]
   },
   {
-    "id": "M035",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
+    "id": "M010",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "E",
+    "home": "GER",
+    "away": "CUW",
+    "probabilities": {
+      "home_win": 0.8279,
+      "draw": 0.1359,
+      "away_win": 0.0362
+    },
+    "predicted_scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "expected_goals": {
+      "home": 2.296,
+      "away": 0.304
+    },
+    "confidence": "high",
+    "reasoning": "Germany (Elo 1932, world #10) are clear favourites over Curaçao (Elo 1434, #91), an Elo gap of 498. The model gives Germany 83% / draw 14% / Curaçao 4%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:GER",
+      "teams.json:CUW"
+    ]
+  },
+  {
+    "id": "M011",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "F",
@@ -1015,8 +203,8 @@
     ]
   },
   {
-    "id": "M036",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
+    "id": "M012",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "F",
@@ -1044,269 +232,8 @@
     ]
   },
   {
-    "id": "M037",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "G",
-    "home": "BEL",
-    "away": "NZL",
-    "probabilities": {
-      "home_win": 0.6887,
-      "draw": 0.2004,
-      "away_win": 0.1109
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 1.964,
-      "away": 0.636
-    },
-    "confidence": "high",
-    "reasoning": "Belgium (Elo 1894, world #15) are clear favourites over New Zealand (Elo 1562, #72), an Elo gap of 332. The model gives Belgium 69% / draw 20% / New Zealand 11%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:BEL",
-      "teams.json:NZL"
-    ]
-  },
-  {
-    "id": "M038",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "G",
-    "home": "IRN",
-    "away": "EGY",
-    "probabilities": {
-      "home_win": 0.4408,
-      "draw": 0.2603,
-      "away_win": 0.2989
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 1
-    },
-    "expected_goals": {
-      "home": 1.452,
-      "away": 1.148
-    },
-    "confidence": "low",
-    "reasoning": "Iran (Elo 1772, world #30) are narrow favourites over Egypt (Elo 1696, #48), an Elo gap of 76. The model gives Iran 44% / draw 26% / Egypt 30%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:IRN",
-      "teams.json:EGY"
-    ]
-  },
-  {
-    "id": "M039",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "G",
-    "home": "BEL",
-    "away": "EGY",
-    "probabilities": {
-      "home_win": 0.5607,
-      "draw": 0.24,
-      "away_win": 0.1993
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 1.696,
-      "away": 0.904
-    },
-    "confidence": "medium",
-    "reasoning": "Belgium (Elo 1894, world #15) are favourites over Egypt (Elo 1696, #48), an Elo gap of 198. The model gives Belgium 56% / draw 24% / Egypt 20%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:BEL",
-      "teams.json:EGY"
-    ]
-  },
-  {
-    "id": "M040",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "G",
-    "home": "NZL",
-    "away": "IRN",
-    "probabilities": {
-      "home_win": 0.1904,
-      "draw": 0.2371,
-      "away_win": 0.5724
-    },
-    "predicted_scoreline": {
-      "home": 0,
-      "away": 1
-    },
-    "expected_goals": {
-      "home": 0.88,
-      "away": 1.72
-    },
-    "confidence": "medium",
-    "reasoning": "Iran (Elo 1772, world #30) are favourites over New Zealand (Elo 1562, #72), an Elo gap of 210. The model gives New Zealand 19% / draw 24% / Iran 57%, with a most-likely scoreline of 0-1. A clear but not overwhelming edge — medium confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:NZL",
-      "teams.json:IRN"
-    ]
-  },
-  {
-    "id": "M041",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "G",
-    "home": "BEL",
-    "away": "IRN",
-    "probabilities": {
-      "home_win": 0.4859,
-      "draw": 0.2547,
-      "away_win": 0.2595
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 1
-    },
-    "expected_goals": {
-      "home": 1.544,
-      "away": 1.056
-    },
-    "confidence": "medium",
-    "reasoning": "Belgium (Elo 1894, world #15) are favourites over Iran (Elo 1772, #30), an Elo gap of 122. The model gives Belgium 49% / draw 25% / Iran 26%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:BEL",
-      "teams.json:IRN"
-    ]
-  },
-  {
-    "id": "M042",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "G",
-    "home": "EGY",
-    "away": "NZL",
-    "probabilities": {
-      "home_win": 0.4977,
-      "draw": 0.2528,
-      "away_win": 0.2496
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 1
-    },
-    "expected_goals": {
-      "home": 1.568,
-      "away": 1.032
-    },
-    "confidence": "medium",
-    "reasoning": "Egypt (Elo 1696, world #48) are favourites over New Zealand (Elo 1562, #72), an Elo gap of 134. The model gives Egypt 50% / draw 25% / New Zealand 25%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:EGY",
-      "teams.json:NZL"
-    ]
-  },
-  {
-    "id": "M043",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "H",
-    "home": "ESP",
-    "away": "KSA",
-    "probabilities": {
-      "home_win": 0.8719,
-      "draw": 0.1087,
-      "away_win": 0.0194
-    },
-    "predicted_scoreline": {
-      "home": 2,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 2.462,
-      "away": 0.2
-    },
-    "confidence": "high",
-    "reasoning": "Spain (Elo 2157, world #1) are clear favourites over Saudi Arabia (Elo 1576, #69), an Elo gap of 581. The model gives Spain 87% / draw 11% / Saudi Arabia 2%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:ESP",
-      "teams.json:KSA"
-    ]
-  },
-  {
-    "id": "M044",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "H",
-    "home": "URU",
-    "away": "CPV",
-    "probabilities": {
-      "home_win": 0.6721,
-      "draw": 0.2065,
-      "away_win": 0.1214
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 1.928,
-      "away": 0.672
-    },
-    "confidence": "high",
-    "reasoning": "Uruguay (Elo 1892, world #16) are clear favourites over Cape Verde (Elo 1578, #68), an Elo gap of 314. The model gives Uruguay 67% / draw 21% / Cape Verde 12%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:URU",
-      "teams.json:CPV"
-    ]
-  },
-  {
-    "id": "M045",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "H",
-    "home": "ESP",
-    "away": "CPV",
-    "probabilities": {
-      "home_win": 0.8715,
-      "draw": 0.109,
-      "away_win": 0.0195
-    },
-    "predicted_scoreline": {
-      "home": 2,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 2.458,
-      "away": 0.2
-    },
-    "confidence": "high",
-    "reasoning": "Spain (Elo 2157, world #1) are clear favourites over Cape Verde (Elo 1578, #68), an Elo gap of 579. The model gives Spain 87% / draw 11% / Cape Verde 2%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:ESP",
-      "teams.json:CPV"
-    ]
-  },
-  {
-    "id": "M046",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
+    "id": "M013",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "H",
@@ -1334,124 +261,95 @@
     ]
   },
   {
-    "id": "M047",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
+    "id": "M014",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "H",
     "home": "ESP",
-    "away": "URU",
+    "away": "CPV",
     "probabilities": {
-      "home_win": 0.6258,
-      "draw": 0.2221,
-      "away_win": 0.1521
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 1.83,
-      "away": 0.77
-    },
-    "confidence": "high",
-    "reasoning": "Spain (Elo 2157, world #1) are clear favourites over Uruguay (Elo 1892, #16), an Elo gap of 265. The model gives Spain 63% / draw 22% / Uruguay 15%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:ESP",
-      "teams.json:URU"
-    ]
-  },
-  {
-    "id": "M048",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "H",
-    "home": "CPV",
-    "away": "KSA",
-    "probabilities": {
-      "home_win": 0.3699,
-      "draw": 0.2639,
-      "away_win": 0.3662
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 1
-    },
-    "expected_goals": {
-      "home": 1.304,
-      "away": 1.296
-    },
-    "confidence": "low",
-    "reasoning": "Cape Verde (Elo 1578, world #68) are narrow favourites over Saudi Arabia (Elo 1576, #69), an Elo gap of 2. The model gives Cape Verde 37% / draw 26% / Saudi Arabia 37%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:CPV",
-      "teams.json:KSA"
-    ]
-  },
-  {
-    "id": "M049",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "I",
-    "home": "FRA",
-    "away": "IRQ",
-    "probabilities": {
-      "home_win": 0.7955,
-      "draw": 0.1531,
-      "away_win": 0.0514
+      "home_win": 0.8715,
+      "draw": 0.109,
+      "away_win": 0.0195
     },
     "predicted_scoreline": {
       "home": 2,
       "away": 0
     },
     "expected_goals": {
-      "home": 2.212,
-      "away": 0.388
+      "home": 2.458,
+      "away": 0.2
     },
     "confidence": "high",
-    "reasoning": "France (Elo 2063, world #3) are clear favourites over Iraq (Elo 1607, #64), an Elo gap of 456. The model gives France 80% / draw 15% / Iraq 5%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
+    "reasoning": "Spain (Elo 2157, world #1) are clear favourites over Cape Verde (Elo 1578, #68), an Elo gap of 579. The model gives Spain 87% / draw 11% / Cape Verde 2%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
     "players_to_watch": [],
     "evidence_refs": [
-      "teams.json:FRA",
-      "teams.json:IRQ"
+      "teams.json:ESP",
+      "teams.json:CPV"
     ]
   },
   {
-    "id": "M050",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
+    "id": "M015",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
     "model_version": "0.1.0",
     "stage": "group",
-    "group": "I",
-    "home": "NOR",
-    "away": "SEN",
+    "group": "G",
+    "home": "IRN",
+    "away": "NZL",
     "probabilities": {
-      "home_win": 0.4195,
-      "draw": 0.2621,
-      "away_win": 0.3185
+      "home_win": 0.5724,
+      "draw": 0.2371,
+      "away_win": 0.1904
     },
     "predicted_scoreline": {
       "home": 1,
-      "away": 1
+      "away": 0
     },
     "expected_goals": {
-      "home": 1.408,
-      "away": 1.192
+      "home": 1.72,
+      "away": 0.88
     },
-    "confidence": "low",
-    "reasoning": "Norway (Elo 1914, world #11) are narrow favourites over Senegal (Elo 1860, #21), an Elo gap of 54. The model gives Norway 42% / draw 26% / Senegal 32%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "confidence": "medium",
+    "reasoning": "Iran (Elo 1772, world #30) are favourites over New Zealand (Elo 1562, #72), an Elo gap of 210. The model gives Iran 57% / draw 24% / New Zealand 19%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [],
     "evidence_refs": [
-      "teams.json:NOR",
-      "teams.json:SEN"
+      "teams.json:IRN",
+      "teams.json:NZL"
     ]
   },
   {
-    "id": "M051",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
+    "id": "M016",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "G",
+    "home": "BEL",
+    "away": "EGY",
+    "probabilities": {
+      "home_win": 0.5607,
+      "draw": 0.24,
+      "away_win": 0.1993
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "expected_goals": {
+      "home": 1.696,
+      "away": 0.904
+    },
+    "confidence": "medium",
+    "reasoning": "Belgium (Elo 1894, world #15) are favourites over Egypt (Elo 1696, #48), an Elo gap of 198. The model gives Belgium 56% / draw 24% / Egypt 20%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:BEL",
+      "teams.json:EGY"
+    ]
+  },
+  {
+    "id": "M017",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "I",
@@ -1479,8 +377,8 @@
     ]
   },
   {
-    "id": "M052",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
+    "id": "M018",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "I",
@@ -1508,124 +406,8 @@
     ]
   },
   {
-    "id": "M053",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "I",
-    "home": "FRA",
-    "away": "NOR",
-    "probabilities": {
-      "home_win": 0.5125,
-      "draw": 0.2502,
-      "away_win": 0.2374
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 1
-    },
-    "expected_goals": {
-      "home": 1.598,
-      "away": 1.002
-    },
-    "confidence": "medium",
-    "reasoning": "France (Elo 2063, world #3) are favourites over Norway (Elo 1914, #11), an Elo gap of 149. The model gives France 51% / draw 25% / Norway 24%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:FRA",
-      "teams.json:NOR"
-    ]
-  },
-  {
-    "id": "M054",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "I",
-    "home": "SEN",
-    "away": "IRQ",
-    "probabilities": {
-      "home_win": 0.6142,
-      "draw": 0.2256,
-      "away_win": 0.1601
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 1.806,
-      "away": 0.794
-    },
-    "confidence": "high",
-    "reasoning": "Senegal (Elo 1860, world #21) are clear favourites over Iraq (Elo 1607, #64), an Elo gap of 253. The model gives Senegal 61% / draw 23% / Iraq 16%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:SEN",
-      "teams.json:IRQ"
-    ]
-  },
-  {
-    "id": "M055",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "J",
-    "home": "ARG",
-    "away": "JOR",
-    "probabilities": {
-      "home_win": 0.7785,
-      "draw": 0.1615,
-      "away_win": 0.06
-    },
-    "predicted_scoreline": {
-      "home": 2,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 2.17,
-      "away": 0.43
-    },
-    "confidence": "high",
-    "reasoning": "Argentina (Elo 2115, world #2) are clear favourites over Jordan (Elo 1680, #52), an Elo gap of 435. The model gives Argentina 78% / draw 16% / Jordan 6%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:ARG",
-      "teams.json:JOR"
-    ]
-  },
-  {
-    "id": "M056",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "J",
-    "home": "AUT",
-    "away": "ALG",
-    "probabilities": {
-      "home_win": 0.4233,
-      "draw": 0.2618,
-      "away_win": 0.3149
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 1
-    },
-    "expected_goals": {
-      "home": 1.416,
-      "away": 1.184
-    },
-    "confidence": "low",
-    "reasoning": "Austria (Elo 1830, world #22) are narrow favourites over Algeria (Elo 1772, #30), an Elo gap of 58. The model gives Austria 42% / draw 26% / Algeria 31%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:AUT",
-      "teams.json:ALG"
-    ]
-  },
-  {
-    "id": "M057",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
+    "id": "M019",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "J",
@@ -1653,385 +435,66 @@
     ]
   },
   {
-    "id": "M058",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
+    "id": "M020",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "J",
-    "home": "JOR",
-    "away": "AUT",
+    "home": "AUT",
+    "away": "JOR",
     "probabilities": {
-      "home_win": 0.2366,
+      "home_win": 0.5134,
       "draw": 0.25,
-      "away_win": 0.5134
-    },
-    "predicted_scoreline": {
-      "home": 0,
-      "away": 1
-    },
-    "expected_goals": {
-      "home": 1.0,
-      "away": 1.6
-    },
-    "confidence": "medium",
-    "reasoning": "Austria (Elo 1830, world #22) are favourites over Jordan (Elo 1680, #52), an Elo gap of 150. The model gives Jordan 24% / draw 25% / Austria 51%, with a most-likely scoreline of 0-1. A clear but not overwhelming edge — medium confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:JOR",
-      "teams.json:AUT"
-    ]
-  },
-  {
-    "id": "M059",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "J",
-    "home": "ARG",
-    "away": "AUT",
-    "probabilities": {
-      "home_win": 0.6448,
-      "draw": 0.216,
-      "away_win": 0.1392
+      "away_win": 0.2366
     },
     "predicted_scoreline": {
       "home": 1,
       "away": 0
     },
     "expected_goals": {
-      "home": 1.87,
-      "away": 0.73
-    },
-    "confidence": "high",
-    "reasoning": "Argentina (Elo 2115, world #2) are clear favourites over Austria (Elo 1830, #22), an Elo gap of 285. The model gives Argentina 64% / draw 22% / Austria 14%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:ARG",
-      "teams.json:AUT"
-    ]
-  },
-  {
-    "id": "M060",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "J",
-    "home": "ALG",
-    "away": "JOR",
-    "probabilities": {
-      "home_win": 0.4564,
-      "draw": 0.2586,
-      "away_win": 0.285
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 1
-    },
-    "expected_goals": {
-      "home": 1.484,
-      "away": 1.116
+      "home": 1.6,
+      "away": 1.0
     },
     "confidence": "medium",
-    "reasoning": "Algeria (Elo 1772, world #30) are favourites over Jordan (Elo 1680, #52), an Elo gap of 92. The model gives Algeria 46% / draw 26% / Jordan 28%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "Austria (Elo 1830, world #22) are favourites over Jordan (Elo 1680, #52), an Elo gap of 150. The model gives Austria 51% / draw 25% / Jordan 24%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [],
     "evidence_refs": [
-      "teams.json:ALG",
+      "teams.json:AUT",
       "teams.json:JOR"
     ]
   },
   {
-    "id": "M061",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "K",
-    "home": "POR",
-    "away": "COD",
-    "probabilities": {
-      "home_win": 0.6933,
-      "draw": 0.1986,
-      "away_win": 0.1081
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 1.974,
-      "away": 0.626
-    },
-    "confidence": "high",
-    "reasoning": "Portugal (Elo 1989, world #6) are clear favourites over DR Congo (Elo 1652, #55), an Elo gap of 337. The model gives Portugal 69% / draw 20% / DR Congo 11%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:POR",
-      "teams.json:COD"
-    ]
-  },
-  {
-    "id": "M062",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "K",
-    "home": "COL",
-    "away": "UZB",
-    "probabilities": {
-      "home_win": 0.6286,
-      "draw": 0.2212,
-      "away_win": 0.1501
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 1.836,
-      "away": 0.764
-    },
-    "confidence": "high",
-    "reasoning": "Colombia (Elo 1982, world #7) are clear favourites over Uzbekistan (Elo 1714, #41), an Elo gap of 268. The model gives Colombia 63% / draw 22% / Uzbekistan 15%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:COL",
-      "teams.json:UZB"
-    ]
-  },
-  {
-    "id": "M063",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "K",
-    "home": "POR",
-    "away": "UZB",
-    "probabilities": {
-      "home_win": 0.6353,
-      "draw": 0.2191,
-      "away_win": 0.1456
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 1.85,
-      "away": 0.75
-    },
-    "confidence": "high",
-    "reasoning": "Portugal (Elo 1989, world #6) are clear favourites over Uzbekistan (Elo 1714, #41), an Elo gap of 275. The model gives Portugal 64% / draw 22% / Uzbekistan 15%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:POR",
-      "teams.json:UZB"
-    ]
-  },
-  {
-    "id": "M064",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "K",
-    "home": "COD",
-    "away": "COL",
-    "probabilities": {
-      "home_win": 0.1121,
-      "draw": 0.2011,
-      "away_win": 0.6868
-    },
-    "predicted_scoreline": {
-      "home": 0,
-      "away": 1
-    },
-    "expected_goals": {
-      "home": 0.64,
-      "away": 1.96
-    },
-    "confidence": "high",
-    "reasoning": "Colombia (Elo 1982, world #7) are clear favourites over DR Congo (Elo 1652, #55), an Elo gap of 330. The model gives DR Congo 11% / draw 20% / Colombia 69%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:COD",
-      "teams.json:COL"
-    ]
-  },
-  {
-    "id": "M065",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "K",
-    "home": "POR",
-    "away": "COL",
-    "probabilities": {
-      "home_win": 0.3746,
-      "draw": 0.2639,
-      "away_win": 0.3615
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 1
-    },
-    "expected_goals": {
-      "home": 1.314,
-      "away": 1.286
-    },
-    "confidence": "low",
-    "reasoning": "Portugal (Elo 1989, world #6) are narrow favourites over Colombia (Elo 1982, #7), an Elo gap of 7. The model gives Portugal 37% / draw 26% / Colombia 36%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:POR",
-      "teams.json:COL"
-    ]
-  },
-  {
-    "id": "M066",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "K",
-    "home": "UZB",
-    "away": "COD",
-    "probabilities": {
-      "home_win": 0.4272,
-      "draw": 0.2615,
-      "away_win": 0.3113
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 1
-    },
-    "expected_goals": {
-      "home": 1.424,
-      "away": 1.176
-    },
-    "confidence": "low",
-    "reasoning": "Uzbekistan (Elo 1714, world #41) are narrow favourites over DR Congo (Elo 1652, #55), an Elo gap of 62. The model gives Uzbekistan 43% / draw 26% / DR Congo 31%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:UZB",
-      "teams.json:COD"
-    ]
-  },
-  {
-    "id": "M067",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "L",
-    "home": "ENG",
-    "away": "GHA",
-    "probabilities": {
-      "home_win": 0.8397,
-      "draw": 0.1293,
-      "away_win": 0.031
-    },
-    "predicted_scoreline": {
-      "home": 2,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 2.328,
-      "away": 0.272
-    },
-    "confidence": "high",
-    "reasoning": "England (Elo 2024, world #4) are clear favourites over Ghana (Elo 1510, #81), an Elo gap of 514. The model gives England 84% / draw 13% / Ghana 3%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:ENG",
-      "teams.json:GHA"
-    ]
-  },
-  {
-    "id": "M068",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "L",
-    "home": "CRO",
-    "away": "PAN",
-    "probabilities": {
-      "home_win": 0.545,
-      "draw": 0.2436,
-      "away_win": 0.2114
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 1.664,
-      "away": 0.936
-    },
-    "confidence": "medium",
-    "reasoning": "Croatia (Elo 1912, world #12) are favourites over Panama (Elo 1730, #38), an Elo gap of 182. The model gives Croatia 55% / draw 24% / Panama 21%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:CRO",
-      "teams.json:PAN"
-    ]
-  },
-  {
-    "id": "M069",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
-    "model_version": "0.1.0",
-    "stage": "group",
-    "group": "L",
-    "home": "ENG",
-    "away": "PAN",
-    "probabilities": {
-      "home_win": 0.6533,
-      "draw": 0.2131,
-      "away_win": 0.1335
-    },
-    "predicted_scoreline": {
-      "home": 1,
-      "away": 0
-    },
-    "expected_goals": {
-      "home": 1.888,
-      "away": 0.712
-    },
-    "confidence": "high",
-    "reasoning": "England (Elo 2024, world #4) are clear favourites over Panama (Elo 1730, #38), an Elo gap of 294. The model gives England 65% / draw 21% / Panama 13%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
-    "players_to_watch": [],
-    "evidence_refs": [
-      "teams.json:ENG",
-      "teams.json:PAN"
-    ]
-  },
-  {
-    "id": "M070",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
+    "id": "M021",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "L",
     "home": "GHA",
-    "away": "CRO",
+    "away": "PAN",
     "probabilities": {
-      "home_win": 0.0747,
-      "draw": 0.1745,
-      "away_win": 0.7508
+      "home_win": 0.1832,
+      "draw": 0.2346,
+      "away_win": 0.5822
     },
     "predicted_scoreline": {
       "home": 0,
-      "away": 2
+      "away": 1
     },
     "expected_goals": {
-      "home": 0.496,
-      "away": 2.104
+      "home": 0.86,
+      "away": 1.74
     },
-    "confidence": "high",
-    "reasoning": "Croatia (Elo 1912, world #12) are clear favourites over Ghana (Elo 1510, #81), an Elo gap of 402. The model gives Ghana 7% / draw 17% / Croatia 75%, with a most-likely scoreline of 0-2. The rating gap is large enough to call this high confidence.",
+    "confidence": "medium",
+    "reasoning": "Panama (Elo 1730, world #38) are favourites over Ghana (Elo 1510, #81), an Elo gap of 220. The model gives Ghana 18% / draw 23% / Panama 58%, with a most-likely scoreline of 0-1. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [],
     "evidence_refs": [
       "teams.json:GHA",
-      "teams.json:CRO"
+      "teams.json:PAN"
     ]
   },
   {
-    "id": "M071",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
+    "id": "M022",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
     "model_version": "0.1.0",
     "stage": "group",
     "group": "L",
@@ -2059,32 +522,1453 @@
     ]
   },
   {
-    "id": "M072",
-    "generated_at": "2026-06-13T19:48:57.353735+00:00",
+    "id": "M023",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
     "model_version": "0.1.0",
     "stage": "group",
-    "group": "L",
-    "home": "PAN",
-    "away": "GHA",
+    "group": "K",
+    "home": "POR",
+    "away": "COD",
     "probabilities": {
-      "home_win": 0.5822,
-      "draw": 0.2346,
-      "away_win": 0.1832
+      "home_win": 0.6933,
+      "draw": 0.1986,
+      "away_win": 0.1081
     },
     "predicted_scoreline": {
       "home": 1,
       "away": 0
     },
     "expected_goals": {
-      "home": 1.74,
-      "away": 0.86
+      "home": 1.974,
+      "away": 0.626
+    },
+    "confidence": "high",
+    "reasoning": "Portugal (Elo 1989, world #6) are clear favourites over DR Congo (Elo 1652, #55), an Elo gap of 337. The model gives Portugal 69% / draw 20% / DR Congo 11%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:POR",
+      "teams.json:COD"
+    ]
+  },
+  {
+    "id": "M024",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "K",
+    "home": "UZB",
+    "away": "COL",
+    "probabilities": {
+      "home_win": 0.1501,
+      "draw": 0.2212,
+      "away_win": 0.6286
+    },
+    "predicted_scoreline": {
+      "home": 0,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 0.764,
+      "away": 1.836
+    },
+    "confidence": "high",
+    "reasoning": "Colombia (Elo 1982, world #7) are clear favourites over Uzbekistan (Elo 1714, #41), an Elo gap of 268. The model gives Uzbekistan 15% / draw 22% / Colombia 63%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:UZB",
+      "teams.json:COL"
+    ]
+  },
+  {
+    "id": "M025",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "A",
+    "home": "CZE",
+    "away": "RSA",
+    "probabilities": {
+      "home_win": 0.5636,
+      "draw": 0.2393,
+      "away_win": 0.1971
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "expected_goals": {
+      "home": 1.702,
+      "away": 0.898
     },
     "confidence": "medium",
-    "reasoning": "Panama (Elo 1730, world #38) are favourites over Ghana (Elo 1510, #81), an Elo gap of 220. The model gives Panama 58% / draw 23% / Ghana 18%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
+    "reasoning": "Czechia (Elo 1712, world #42) are favourites over South Africa (Elo 1511, #80), an Elo gap of 201. The model gives Czechia 56% / draw 24% / South Africa 20%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:CZE",
+      "teams.json:RSA"
+    ]
+  },
+  {
+    "id": "M026",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "B",
+    "home": "SUI",
+    "away": "BIH",
+    "probabilities": {
+      "home_win": 0.6353,
+      "draw": 0.2191,
+      "away_win": 0.1456
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "expected_goals": {
+      "home": 1.85,
+      "away": 0.75
+    },
+    "confidence": "high",
+    "reasoning": "Switzerland (Elo 1891, world #17) are clear favourites over Bosnia and Herzegovina (Elo 1616, #60), an Elo gap of 275. The model gives Switzerland 64% / draw 22% / Bosnia and Herzegovina 15%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:SUI",
+      "teams.json:BIH"
+    ]
+  },
+  {
+    "id": "M027",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "B",
+    "home": "CAN",
+    "away": "QAT",
+    "probabilities": {
+      "home_win": 0.7585,
+      "draw": 0.171,
+      "away_win": 0.0705
+    },
+    "predicted_scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "expected_goals": {
+      "home": 2.122,
+      "away": 0.478
+    },
+    "confidence": "high",
+    "reasoning": "Canada (Elo 1767, world #33) are clear favourites over Qatar (Elo 1421, #96), an Elo gap of 346. As a tournament host, Canada get a home-advantage bump worth ~65 Elo points in this projection. The model gives Canada 76% / draw 17% / Qatar 7%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:CAN",
+      "teams.json:QAT"
+    ]
+  },
+  {
+    "id": "M028",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "A",
+    "home": "MEX",
+    "away": "KOR",
+    "probabilities": {
+      "home_win": 0.5233,
+      "draw": 0.2481,
+      "away_win": 0.2286
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "expected_goals": {
+      "home": 1.62,
+      "away": 0.98
+    },
+    "confidence": "medium",
+    "reasoning": "Mexico (Elo 1881, world #18) are favourites over South Korea (Elo 1786, #24), an Elo gap of 95. As a tournament host, Mexico get a home-advantage bump worth ~65 Elo points in this projection. The model gives Mexico 52% / draw 25% / South Korea 23%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:MEX",
+      "teams.json:KOR"
+    ]
+  },
+  {
+    "id": "M029",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "C",
+    "home": "BRA",
+    "away": "HAI",
+    "probabilities": {
+      "home_win": 0.785,
+      "draw": 0.1583,
+      "away_win": 0.0567
+    },
+    "predicted_scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "expected_goals": {
+      "home": 2.186,
+      "away": 0.414
+    },
+    "confidence": "high",
+    "reasoning": "Brazil (Elo 1991, world #5) are clear favourites over Haiti (Elo 1548, #73), an Elo gap of 443. The model gives Brazil 78% / draw 16% / Haiti 6%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:BRA",
+      "teams.json:HAI"
+    ]
+  },
+  {
+    "id": "M030",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "C",
+    "home": "SCO",
+    "away": "MAR",
+    "probabilities": {
+      "home_win": 0.3266,
+      "draw": 0.2626,
+      "away_win": 0.4108
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 1.21,
+      "away": 1.39
+    },
+    "confidence": "low",
+    "reasoning": "Morocco (Elo 1827, world #23) are narrow favourites over Scotland (Elo 1782, #25), an Elo gap of 45. The model gives Scotland 33% / draw 26% / Morocco 41%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:SCO",
+      "teams.json:MAR"
+    ]
+  },
+  {
+    "id": "M031",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "D",
+    "home": "TUR",
+    "away": "PAR",
+    "probabilities": {
+      "home_win": 0.4947,
+      "draw": 0.2533,
+      "away_win": 0.252
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 1.562,
+      "away": 1.038
+    },
+    "confidence": "medium",
+    "reasoning": "Türkiye (Elo 1911, world #13) are favourites over Paraguay (Elo 1780, #26), an Elo gap of 131. The model gives Türkiye 49% / draw 25% / Paraguay 25%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:TUR",
+      "teams.json:PAR"
+    ]
+  },
+  {
+    "id": "M032",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "D",
+    "home": "USA",
+    "away": "AUS",
+    "probabilities": {
+      "home_win": 0.433,
+      "draw": 0.261,
+      "away_win": 0.306
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 1.436,
+      "away": 1.164
+    },
+    "confidence": "low",
+    "reasoning": "United States (Elo 1780, world #26) are narrow favourites over Australia (Elo 1777, #29), an Elo gap of 3. As a tournament host, United States get a home-advantage bump worth ~65 Elo points in this projection. The model gives United States 43% / draw 26% / Australia 31%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:USA",
+      "teams.json:AUS"
+    ]
+  },
+  {
+    "id": "M033",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "E",
+    "home": "GER",
+    "away": "CIV",
+    "probabilities": {
+      "home_win": 0.5988,
+      "draw": 0.2301,
+      "away_win": 0.1711
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "expected_goals": {
+      "home": 1.774,
+      "away": 0.826
+    },
+    "confidence": "medium",
+    "reasoning": "Germany (Elo 1932, world #10) are favourites over Ivory Coast (Elo 1695, #49), an Elo gap of 237. The model gives Germany 60% / draw 23% / Ivory Coast 17%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:GER",
+      "teams.json:CIV"
+    ]
+  },
+  {
+    "id": "M034",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "E",
+    "home": "ECU",
+    "away": "CUW",
+    "probabilities": {
+      "home_win": 0.8324,
+      "draw": 0.1334,
+      "away_win": 0.0342
+    },
+    "predicted_scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "expected_goals": {
+      "home": 2.308,
+      "away": 0.292
+    },
+    "confidence": "high",
+    "reasoning": "Ecuador (Elo 1938, world #9) are clear favourites over Curaçao (Elo 1434, #91), an Elo gap of 504. The model gives Ecuador 83% / draw 13% / Curaçao 3%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:ECU",
+      "teams.json:CUW"
+    ]
+  },
+  {
+    "id": "M035",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "F",
+    "home": "NED",
+    "away": "SWE",
+    "probabilities": {
+      "home_win": 0.5978,
+      "draw": 0.2304,
+      "away_win": 0.1718
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "expected_goals": {
+      "home": 1.772,
+      "away": 0.828
+    },
+    "confidence": "medium",
+    "reasoning": "Netherlands (Elo 1948, world #8) are favourites over Sweden (Elo 1712, #42), an Elo gap of 236. The model gives Netherlands 60% / draw 23% / Sweden 17%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:NED",
+      "teams.json:SWE"
+    ]
+  },
+  {
+    "id": "M036",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "F",
+    "home": "TUN",
+    "away": "JPN",
+    "probabilities": {
+      "home_win": 0.1437,
+      "draw": 0.2182,
+      "away_win": 0.6382
+    },
+    "predicted_scoreline": {
+      "home": 0,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 0.744,
+      "away": 1.856
+    },
+    "confidence": "high",
+    "reasoning": "Japan (Elo 1906, world #14) are clear favourites over Tunisia (Elo 1628, #58), an Elo gap of 278. The model gives Tunisia 14% / draw 22% / Japan 64%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:TUN",
+      "teams.json:JPN"
+    ]
+  },
+  {
+    "id": "M037",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "H",
+    "home": "URU",
+    "away": "CPV",
+    "probabilities": {
+      "home_win": 0.6721,
+      "draw": 0.2065,
+      "away_win": 0.1214
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "expected_goals": {
+      "home": 1.928,
+      "away": 0.672
+    },
+    "confidence": "high",
+    "reasoning": "Uruguay (Elo 1892, world #16) are clear favourites over Cape Verde (Elo 1578, #68), an Elo gap of 314. The model gives Uruguay 67% / draw 21% / Cape Verde 12%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:URU",
+      "teams.json:CPV"
+    ]
+  },
+  {
+    "id": "M038",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "H",
+    "home": "ESP",
+    "away": "KSA",
+    "probabilities": {
+      "home_win": 0.8719,
+      "draw": 0.1087,
+      "away_win": 0.0194
+    },
+    "predicted_scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "expected_goals": {
+      "home": 2.462,
+      "away": 0.2
+    },
+    "confidence": "high",
+    "reasoning": "Spain (Elo 2157, world #1) are clear favourites over Saudi Arabia (Elo 1576, #69), an Elo gap of 581. The model gives Spain 87% / draw 11% / Saudi Arabia 2%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:ESP",
+      "teams.json:KSA"
+    ]
+  },
+  {
+    "id": "M039",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "G",
+    "home": "BEL",
+    "away": "IRN",
+    "probabilities": {
+      "home_win": 0.4859,
+      "draw": 0.2547,
+      "away_win": 0.2595
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 1.544,
+      "away": 1.056
+    },
+    "confidence": "medium",
+    "reasoning": "Belgium (Elo 1894, world #15) are favourites over Iran (Elo 1772, #30), an Elo gap of 122. The model gives Belgium 49% / draw 25% / Iran 26%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:BEL",
+      "teams.json:IRN"
+    ]
+  },
+  {
+    "id": "M040",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "G",
+    "home": "NZL",
+    "away": "EGY",
+    "probabilities": {
+      "home_win": 0.2496,
+      "draw": 0.2528,
+      "away_win": 0.4977
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 1.032,
+      "away": 1.568
+    },
+    "confidence": "medium",
+    "reasoning": "Egypt (Elo 1696, world #48) are favourites over New Zealand (Elo 1562, #72), an Elo gap of 134. The model gives New Zealand 25% / draw 25% / Egypt 50%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:NZL",
+      "teams.json:EGY"
+    ]
+  },
+  {
+    "id": "M041",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "I",
+    "home": "NOR",
+    "away": "SEN",
+    "probabilities": {
+      "home_win": 0.4195,
+      "draw": 0.2621,
+      "away_win": 0.3185
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 1.408,
+      "away": 1.192
+    },
+    "confidence": "low",
+    "reasoning": "Norway (Elo 1914, world #11) are narrow favourites over Senegal (Elo 1860, #21), an Elo gap of 54. The model gives Norway 42% / draw 26% / Senegal 32%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:NOR",
+      "teams.json:SEN"
+    ]
+  },
+  {
+    "id": "M042",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "I",
+    "home": "FRA",
+    "away": "IRQ",
+    "probabilities": {
+      "home_win": 0.7955,
+      "draw": 0.1531,
+      "away_win": 0.0514
+    },
+    "predicted_scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "expected_goals": {
+      "home": 2.212,
+      "away": 0.388
+    },
+    "confidence": "high",
+    "reasoning": "France (Elo 2063, world #3) are clear favourites over Iraq (Elo 1607, #64), an Elo gap of 456. The model gives France 80% / draw 15% / Iraq 5%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:FRA",
+      "teams.json:IRQ"
+    ]
+  },
+  {
+    "id": "M043",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "J",
+    "home": "ARG",
+    "away": "AUT",
+    "probabilities": {
+      "home_win": 0.6448,
+      "draw": 0.216,
+      "away_win": 0.1392
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "expected_goals": {
+      "home": 1.87,
+      "away": 0.73
+    },
+    "confidence": "high",
+    "reasoning": "Argentina (Elo 2115, world #2) are clear favourites over Austria (Elo 1830, #22), an Elo gap of 285. The model gives Argentina 64% / draw 22% / Austria 14%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:ARG",
+      "teams.json:AUT"
+    ]
+  },
+  {
+    "id": "M044",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "J",
+    "home": "JOR",
+    "away": "ALG",
+    "probabilities": {
+      "home_win": 0.285,
+      "draw": 0.2586,
+      "away_win": 0.4564
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 1.116,
+      "away": 1.484
+    },
+    "confidence": "medium",
+    "reasoning": "Algeria (Elo 1772, world #30) are favourites over Jordan (Elo 1680, #52), an Elo gap of 92. The model gives Jordan 28% / draw 26% / Algeria 46%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:JOR",
+      "teams.json:ALG"
+    ]
+  },
+  {
+    "id": "M045",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "L",
+    "home": "ENG",
+    "away": "GHA",
+    "probabilities": {
+      "home_win": 0.8397,
+      "draw": 0.1293,
+      "away_win": 0.031
+    },
+    "predicted_scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "expected_goals": {
+      "home": 2.328,
+      "away": 0.272
+    },
+    "confidence": "high",
+    "reasoning": "England (Elo 2024, world #4) are clear favourites over Ghana (Elo 1510, #81), an Elo gap of 514. The model gives England 84% / draw 13% / Ghana 3%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:ENG",
+      "teams.json:GHA"
+    ]
+  },
+  {
+    "id": "M046",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "L",
+    "home": "PAN",
+    "away": "CRO",
+    "probabilities": {
+      "home_win": 0.2114,
+      "draw": 0.2436,
+      "away_win": 0.545
+    },
+    "predicted_scoreline": {
+      "home": 0,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 0.936,
+      "away": 1.664
+    },
+    "confidence": "medium",
+    "reasoning": "Croatia (Elo 1912, world #12) are favourites over Panama (Elo 1730, #38), an Elo gap of 182. The model gives Panama 21% / draw 24% / Croatia 55%, with a most-likely scoreline of 0-1. A clear but not overwhelming edge — medium confidence.",
     "players_to_watch": [],
     "evidence_refs": [
       "teams.json:PAN",
+      "teams.json:CRO"
+    ]
+  },
+  {
+    "id": "M047",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "K",
+    "home": "POR",
+    "away": "UZB",
+    "probabilities": {
+      "home_win": 0.6353,
+      "draw": 0.2191,
+      "away_win": 0.1456
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "expected_goals": {
+      "home": 1.85,
+      "away": 0.75
+    },
+    "confidence": "high",
+    "reasoning": "Portugal (Elo 1989, world #6) are clear favourites over Uzbekistan (Elo 1714, #41), an Elo gap of 275. The model gives Portugal 64% / draw 22% / Uzbekistan 15%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:POR",
+      "teams.json:UZB"
+    ]
+  },
+  {
+    "id": "M048",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "K",
+    "home": "COL",
+    "away": "COD",
+    "probabilities": {
+      "home_win": 0.6868,
+      "draw": 0.2011,
+      "away_win": 0.1121
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "expected_goals": {
+      "home": 1.96,
+      "away": 0.64
+    },
+    "confidence": "high",
+    "reasoning": "Colombia (Elo 1982, world #7) are clear favourites over DR Congo (Elo 1652, #55), an Elo gap of 330. The model gives Colombia 69% / draw 20% / DR Congo 11%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:COL",
+      "teams.json:COD"
+    ]
+  },
+  {
+    "id": "M049",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "C",
+    "home": "SCO",
+    "away": "BRA",
+    "probabilities": {
+      "home_win": 0.1912,
+      "draw": 0.2374,
+      "away_win": 0.5715
+    },
+    "predicted_scoreline": {
+      "home": 0,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 0.882,
+      "away": 1.718
+    },
+    "confidence": "medium",
+    "reasoning": "Brazil (Elo 1991, world #5) are favourites over Scotland (Elo 1782, #25), an Elo gap of 209. The model gives Scotland 19% / draw 24% / Brazil 57%, with a most-likely scoreline of 0-1. A clear but not overwhelming edge — medium confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:SCO",
+      "teams.json:BRA"
+    ]
+  },
+  {
+    "id": "M050",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "C",
+    "home": "MAR",
+    "away": "HAI",
+    "probabilities": {
+      "home_win": 0.6391,
+      "draw": 0.2179,
+      "away_win": 0.143
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "expected_goals": {
+      "home": 1.858,
+      "away": 0.742
+    },
+    "confidence": "high",
+    "reasoning": "Morocco (Elo 1827, world #23) are clear favourites over Haiti (Elo 1548, #73), an Elo gap of 279. The model gives Morocco 64% / draw 22% / Haiti 14%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:MAR",
+      "teams.json:HAI"
+    ]
+  },
+  {
+    "id": "M051",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "B",
+    "home": "SUI",
+    "away": "CAN",
+    "probabilities": {
+      "home_win": 0.4243,
+      "draw": 0.2617,
+      "away_win": 0.314
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 1.418,
+      "away": 1.182
+    },
+    "confidence": "low",
+    "reasoning": "Switzerland (Elo 1891, world #17) are narrow favourites over Canada (Elo 1767, #33), an Elo gap of 124. As a tournament host, Canada get a home-advantage bump worth ~65 Elo points in this projection. The model gives Switzerland 42% / draw 26% / Canada 31%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:SUI",
+      "teams.json:CAN"
+    ]
+  },
+  {
+    "id": "M052",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "B",
+    "home": "BIH",
+    "away": "QAT",
+    "probabilities": {
+      "home_win": 0.5577,
+      "draw": 0.2407,
+      "away_win": 0.2016
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "expected_goals": {
+      "home": 1.69,
+      "away": 0.91
+    },
+    "confidence": "medium",
+    "reasoning": "Bosnia and Herzegovina (Elo 1616, world #60) are favourites over Qatar (Elo 1421, #96), an Elo gap of 195. The model gives Bosnia and Herzegovina 56% / draw 24% / Qatar 20%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:BIH",
+      "teams.json:QAT"
+    ]
+  },
+  {
+    "id": "M053",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "A",
+    "home": "CZE",
+    "away": "MEX",
+    "probabilities": {
+      "home_win": 0.1732,
+      "draw": 0.2309,
+      "away_win": 0.5958
+    },
+    "predicted_scoreline": {
+      "home": 0,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 0.832,
+      "away": 1.768
+    },
+    "confidence": "medium",
+    "reasoning": "Mexico (Elo 1881, world #18) are favourites over Czechia (Elo 1712, #42), an Elo gap of 169. As a tournament host, Mexico get a home-advantage bump worth ~65 Elo points in this projection. The model gives Czechia 17% / draw 23% / Mexico 60%, with a most-likely scoreline of 0-1. A clear but not overwhelming edge — medium confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:CZE",
+      "teams.json:MEX"
+    ]
+  },
+  {
+    "id": "M054",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "A",
+    "home": "RSA",
+    "away": "KOR",
+    "probabilities": {
+      "home_win": 0.1456,
+      "draw": 0.2191,
+      "away_win": 0.6353
+    },
+    "predicted_scoreline": {
+      "home": 0,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 0.75,
+      "away": 1.85
+    },
+    "confidence": "high",
+    "reasoning": "South Korea (Elo 1786, world #24) are clear favourites over South Africa (Elo 1511, #80), an Elo gap of 275. The model gives South Africa 15% / draw 22% / South Korea 64%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:RSA",
+      "teams.json:KOR"
+    ]
+  },
+  {
+    "id": "M055",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "E",
+    "home": "CUW",
+    "away": "CIV",
+    "probabilities": {
+      "home_win": 0.1548,
+      "draw": 0.2233,
+      "away_win": 0.6219
+    },
+    "predicted_scoreline": {
+      "home": 0,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 0.778,
+      "away": 1.822
+    },
+    "confidence": "high",
+    "reasoning": "Ivory Coast (Elo 1695, world #49) are clear favourites over Curaçao (Elo 1434, #91), an Elo gap of 261. The model gives Curaçao 15% / draw 22% / Ivory Coast 62%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:CUW",
+      "teams.json:CIV"
+    ]
+  },
+  {
+    "id": "M056",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "E",
+    "home": "ECU",
+    "away": "GER",
+    "probabilities": {
+      "home_win": 0.3737,
+      "draw": 0.2639,
+      "away_win": 0.3624
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 1.312,
+      "away": 1.288
+    },
+    "confidence": "low",
+    "reasoning": "Ecuador (Elo 1938, world #9) are narrow favourites over Germany (Elo 1932, #10), an Elo gap of 6. The model gives Ecuador 37% / draw 26% / Germany 36%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:ECU",
+      "teams.json:GER"
+    ]
+  },
+  {
+    "id": "M057",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "F",
+    "home": "JPN",
+    "away": "SWE",
+    "probabilities": {
+      "home_win": 0.5568,
+      "draw": 0.2409,
+      "away_win": 0.2023
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "expected_goals": {
+      "home": 1.688,
+      "away": 0.912
+    },
+    "confidence": "medium",
+    "reasoning": "Japan (Elo 1906, world #14) are favourites over Sweden (Elo 1712, #42), an Elo gap of 194. The model gives Japan 56% / draw 24% / Sweden 20%, with a most-likely scoreline of 1-0. A clear but not overwhelming edge — medium confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:JPN",
+      "teams.json:SWE"
+    ]
+  },
+  {
+    "id": "M058",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "F",
+    "home": "TUN",
+    "away": "NED",
+    "probabilities": {
+      "home_win": 0.1179,
+      "draw": 0.2045,
+      "away_win": 0.6776
+    },
+    "predicted_scoreline": {
+      "home": 0,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 0.66,
+      "away": 1.94
+    },
+    "confidence": "high",
+    "reasoning": "Netherlands (Elo 1948, world #8) are clear favourites over Tunisia (Elo 1628, #58), an Elo gap of 320. The model gives Tunisia 12% / draw 20% / Netherlands 68%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:TUN",
+      "teams.json:NED"
+    ]
+  },
+  {
+    "id": "M059",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "D",
+    "home": "TUR",
+    "away": "USA",
+    "probabilities": {
+      "home_win": 0.4311,
+      "draw": 0.2612,
+      "away_win": 0.3077
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 1.432,
+      "away": 1.168
+    },
+    "confidence": "low",
+    "reasoning": "Türkiye (Elo 1911, world #13) are narrow favourites over United States (Elo 1780, #26), an Elo gap of 131. As a tournament host, United States get a home-advantage bump worth ~65 Elo points in this projection. The model gives Türkiye 43% / draw 26% / United States 31%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:TUR",
+      "teams.json:USA"
+    ]
+  },
+  {
+    "id": "M060",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "D",
+    "home": "PAR",
+    "away": "AUS",
+    "probabilities": {
+      "home_win": 0.3709,
+      "draw": 0.2639,
+      "away_win": 0.3652
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 1.306,
+      "away": 1.294
+    },
+    "confidence": "low",
+    "reasoning": "Paraguay (Elo 1780, world #26) are narrow favourites over Australia (Elo 1777, #29), an Elo gap of 3. The model gives Paraguay 37% / draw 26% / Australia 37%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:PAR",
+      "teams.json:AUS"
+    ]
+  },
+  {
+    "id": "M061",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "I",
+    "home": "NOR",
+    "away": "FRA",
+    "probabilities": {
+      "home_win": 0.2374,
+      "draw": 0.2502,
+      "away_win": 0.5125
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 1.002,
+      "away": 1.598
+    },
+    "confidence": "medium",
+    "reasoning": "France (Elo 2063, world #3) are favourites over Norway (Elo 1914, #11), an Elo gap of 149. The model gives Norway 24% / draw 25% / France 51%, with a most-likely scoreline of 1-1. A clear but not overwhelming edge — medium confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:NOR",
+      "teams.json:FRA"
+    ]
+  },
+  {
+    "id": "M062",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "I",
+    "home": "SEN",
+    "away": "IRQ",
+    "probabilities": {
+      "home_win": 0.6142,
+      "draw": 0.2256,
+      "away_win": 0.1601
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 0
+    },
+    "expected_goals": {
+      "home": 1.806,
+      "away": 0.794
+    },
+    "confidence": "high",
+    "reasoning": "Senegal (Elo 1860, world #21) are clear favourites over Iraq (Elo 1607, #64), an Elo gap of 253. The model gives Senegal 61% / draw 23% / Iraq 16%, with a most-likely scoreline of 1-0. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:SEN",
+      "teams.json:IRQ"
+    ]
+  },
+  {
+    "id": "M063",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "G",
+    "home": "EGY",
+    "away": "IRN",
+    "probabilities": {
+      "home_win": 0.2989,
+      "draw": 0.2603,
+      "away_win": 0.4408
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 1.148,
+      "away": 1.452
+    },
+    "confidence": "low",
+    "reasoning": "Iran (Elo 1772, world #30) are narrow favourites over Egypt (Elo 1696, #48), an Elo gap of 76. The model gives Egypt 30% / draw 26% / Iran 44%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:EGY",
+      "teams.json:IRN"
+    ]
+  },
+  {
+    "id": "M064",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "G",
+    "home": "NZL",
+    "away": "BEL",
+    "probabilities": {
+      "home_win": 0.1109,
+      "draw": 0.2004,
+      "away_win": 0.6887
+    },
+    "predicted_scoreline": {
+      "home": 0,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 0.636,
+      "away": 1.964
+    },
+    "confidence": "high",
+    "reasoning": "Belgium (Elo 1894, world #15) are clear favourites over New Zealand (Elo 1562, #72), an Elo gap of 332. The model gives New Zealand 11% / draw 20% / Belgium 69%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:NZL",
+      "teams.json:BEL"
+    ]
+  },
+  {
+    "id": "M065",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "H",
+    "home": "CPV",
+    "away": "KSA",
+    "probabilities": {
+      "home_win": 0.3699,
+      "draw": 0.2639,
+      "away_win": 0.3662
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 1.304,
+      "away": 1.296
+    },
+    "confidence": "low",
+    "reasoning": "Cape Verde (Elo 1578, world #68) are narrow favourites over Saudi Arabia (Elo 1576, #69), an Elo gap of 2. The model gives Cape Verde 37% / draw 26% / Saudi Arabia 37%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:CPV",
+      "teams.json:KSA"
+    ]
+  },
+  {
+    "id": "M066",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "H",
+    "home": "URU",
+    "away": "ESP",
+    "probabilities": {
+      "home_win": 0.1521,
+      "draw": 0.2221,
+      "away_win": 0.6258
+    },
+    "predicted_scoreline": {
+      "home": 0,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 0.77,
+      "away": 1.83
+    },
+    "confidence": "high",
+    "reasoning": "Spain (Elo 2157, world #1) are clear favourites over Uruguay (Elo 1892, #16), an Elo gap of 265. The model gives Uruguay 15% / draw 22% / Spain 63%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:URU",
+      "teams.json:ESP"
+    ]
+  },
+  {
+    "id": "M067",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "L",
+    "home": "PAN",
+    "away": "ENG",
+    "probabilities": {
+      "home_win": 0.1335,
+      "draw": 0.2131,
+      "away_win": 0.6533
+    },
+    "predicted_scoreline": {
+      "home": 0,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 0.712,
+      "away": 1.888
+    },
+    "confidence": "high",
+    "reasoning": "England (Elo 2024, world #4) are clear favourites over Panama (Elo 1730, #38), an Elo gap of 294. The model gives Panama 13% / draw 21% / England 65%, with a most-likely scoreline of 0-1. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:PAN",
+      "teams.json:ENG"
+    ]
+  },
+  {
+    "id": "M068",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "L",
+    "home": "CRO",
+    "away": "GHA",
+    "probabilities": {
+      "home_win": 0.7508,
+      "draw": 0.1745,
+      "away_win": 0.0747
+    },
+    "predicted_scoreline": {
+      "home": 2,
+      "away": 0
+    },
+    "expected_goals": {
+      "home": 2.104,
+      "away": 0.496
+    },
+    "confidence": "high",
+    "reasoning": "Croatia (Elo 1912, world #12) are clear favourites over Ghana (Elo 1510, #81), an Elo gap of 402. The model gives Croatia 75% / draw 17% / Ghana 7%, with a most-likely scoreline of 2-0. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:CRO",
       "teams.json:GHA"
+    ]
+  },
+  {
+    "id": "M069",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "J",
+    "home": "ALG",
+    "away": "AUT",
+    "probabilities": {
+      "home_win": 0.3149,
+      "draw": 0.2618,
+      "away_win": 0.4233
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 1.184,
+      "away": 1.416
+    },
+    "confidence": "low",
+    "reasoning": "Austria (Elo 1830, world #22) are narrow favourites over Algeria (Elo 1772, #30), an Elo gap of 58. The model gives Algeria 31% / draw 26% / Austria 42%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:ALG",
+      "teams.json:AUT"
+    ]
+  },
+  {
+    "id": "M070",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "J",
+    "home": "JOR",
+    "away": "ARG",
+    "probabilities": {
+      "home_win": 0.06,
+      "draw": 0.1615,
+      "away_win": 0.7785
+    },
+    "predicted_scoreline": {
+      "home": 0,
+      "away": 2
+    },
+    "expected_goals": {
+      "home": 0.43,
+      "away": 2.17
+    },
+    "confidence": "high",
+    "reasoning": "Argentina (Elo 2115, world #2) are clear favourites over Jordan (Elo 1680, #52), an Elo gap of 435. The model gives Jordan 6% / draw 16% / Argentina 78%, with a most-likely scoreline of 0-2. The rating gap is large enough to call this high confidence.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:JOR",
+      "teams.json:ARG"
+    ]
+  },
+  {
+    "id": "M071",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "K",
+    "home": "COL",
+    "away": "POR",
+    "probabilities": {
+      "home_win": 0.3615,
+      "draw": 0.2639,
+      "away_win": 0.3746
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 1.286,
+      "away": 1.314
+    },
+    "confidence": "low",
+    "reasoning": "Portugal (Elo 1989, world #6) are narrow favourites over Colombia (Elo 1982, #7), an Elo gap of 7. The model gives Colombia 36% / draw 26% / Portugal 37%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:COL",
+      "teams.json:POR"
+    ]
+  },
+  {
+    "id": "M072",
+    "generated_at": "2026-06-13T20:36:20.000082+00:00",
+    "model_version": "0.1.0",
+    "stage": "group",
+    "group": "K",
+    "home": "COD",
+    "away": "UZB",
+    "probabilities": {
+      "home_win": 0.3113,
+      "draw": 0.2615,
+      "away_win": 0.4272
+    },
+    "predicted_scoreline": {
+      "home": 1,
+      "away": 1
+    },
+    "expected_goals": {
+      "home": 1.176,
+      "away": 1.424
+    },
+    "confidence": "low",
+    "reasoning": "Uzbekistan (Elo 1714, world #41) are narrow favourites over DR Congo (Elo 1652, #55), an Elo gap of 62. The model gives DR Congo 31% / draw 26% / Uzbekistan 43%, with a most-likely scoreline of 1-1. Ratings are close, so this is flagged low confidence — a genuine toss-up.",
+    "players_to_watch": [],
+    "evidence_refs": [
+      "teams.json:COD",
+      "teams.json:UZB"
     ]
   }
 ]
