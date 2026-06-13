@@ -17,7 +17,9 @@ e.g.  elo_ratings_2026-06-13.html
 ## Source log
 | File | Provider | URL | Fetched | Notes |
 |------|----------|-----|---------|-------|
-| _(none yet — populated in Phase 2)_ | | | | |
+| `elo_world_2026-06-13.tsv` | eloratings.net | https://www.eloratings.net/World.tsv | 2026-06-13 | Full world Elo table; cols: rank, rank, ISO2 code, Elo rating, … |
+| `elo_teamcodes_2026-06-13.tsv` | eloratings.net | https://www.eloratings.net/en.teams.tsv | 2026-06-13 | ISO2 code → country name map |
+| _group draw_ | ESPN / FIFA | https://www.espn.com/soccer/story/_/id/48939282 | 2026-06-13 | 12-group composition, cross-checked vs FIFA group previews; encoded in `pipeline/seed_draw_2026.py` |
 
 ## Providers used
 - **eloratings.net** — team Elo ratings
