@@ -1,0 +1,14 @@
+# Data wrangling
+pandas>=2.2
+numpy>=1.26
+
+# Prediction model (Poisson, calibration)
+scipy>=1.13
+
+# Fetching / scraping (Phase 2)
+requests>=2.32
+beautifulsoup4>=4.12
+lxml>=5.2
+
+# Env / config
+python-dotenv>=1.0
