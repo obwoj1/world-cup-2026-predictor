@@ -1,0 +1,18 @@
+"""Current FIFA men's world ranking (June 2026) for the 48 finalists.
+
+Source: FIFA via ESPN top-50 (https://www.espn.com/soccer/story/_/id/46664763) and
+whereig.com for positions below 50, fetched 2026-06-13. Kept separate from Elo because
+the two systems disagree (notably Morocco: FIFA #7 vs Elo #23). The prediction model uses
+Elo (more predictive); FIFA rank is shown alongside for context.
+"""
+from __future__ import annotations
+
+# FIFA code -> world ranking position (June 2026)
+FIFA_RANK = {
+    "ARG": 1, "ESP": 2, "FRA": 3, "ENG": 4, "POR": 5, "BRA": 6, "MAR": 7, "NED": 8,
+    "BEL": 9, "GER": 10, "CRO": 11, "COL": 13, "MEX": 14, "SEN": 15, "URU": 16, "USA": 17,
+    "JPN": 18, "SUI": 19, "IRN": 20, "TUR": 22, "ECU": 23, "AUT": 24, "KOR": 25, "AUS": 27,
+    "ALG": 28, "EGY": 29, "CAN": 30, "NOR": 31, "CIV": 33, "PAN": 34, "SWE": 38, "CZE": 40,
+    "PAR": 41, "SCO": 42, "TUN": 45, "COD": 46, "UZB": 50, "QAT": 56, "IRQ": 57, "RSA": 60,
+    "KSA": 61, "JOR": 63, "BIH": 64, "CPV": 67, "GHA": 73, "CUW": 82, "HAI": 83, "NZL": 85,
+}

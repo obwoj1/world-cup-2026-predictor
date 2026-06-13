@@ -18,6 +18,7 @@ from pathlib import Path
 
 from common import TEAMS_FILE, SOURCES_DIR, save_json
 from seed_draw_2026 import TEAMS_2026
+from seed_fifa_rankings import FIFA_RANK
 
 
 def _latest_source(pattern: str) -> Path:
@@ -64,7 +65,7 @@ def main() -> None:
             "group": group,
             "elo": entry["elo"] if entry else None,
             "elo_rank": entry["rank"] if entry else None,
-            "fifa_rank": None,            # filled by a later FIFA-ranking fetch
+            "fifa_rank": FIFA_RANK.get(fifa_code),  # FIFA June 2026 (seed_fifa_rankings)
             "form": None,                 # filled by a later form fetch
             "xg": None,                   # filled where available (FBref)
             "wc_knockout_history": None,  # filled from historical dataset
