@@ -98,7 +98,7 @@ are snapshotted to `data/snapshots/` for traceability. Commit with a message lik
 | Phase | Description | Status |
 |-------|-------------|--------|
 | 1 | Plan & scaffold | ✅ done |
-| 2 | Data pipeline | ✅ teams (real Elo) + fixtures done; form/xG/players to enrich |
+| 2 | Data pipeline | ✅ real Elo, real schedule (dates/venues/live results), full 48 squads; form/xG to enrich |
 | 3 | Prediction engine | ✅ Poisson per-match + Monte Carlo bracket odds |
 | 4 | Web app UI | ✅ fixtures, groups, title race, players, reconciliation pages |
 | 5 | Reconciliation workflow | ✅ grade, Elo/form update, re-run, matchweek log |

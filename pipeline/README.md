@@ -5,7 +5,8 @@ Python scripts that turn raw data into the JSON the web app reads. Run them in o
 ```bash
 python fetch_data.py --all      # download raw sources -> data/sources/
 python build_ratings.py         # data/sources -> data/teams.json (Elo, group, etc.)
-python generate_fixtures.py     # draw -> data/fixtures.json (72 group matches)
+python generate_fixtures.py     # real schedule -> data/fixtures.json + data/results.json
+python build_players.py         # Wikipedia squads -> data/players.json (1248 players)
 python predict.py               # per-match predictions -> data/predictions.json
 python simulate.py --sims 20000 # Monte Carlo bracket -> data/projections.json
 ```
