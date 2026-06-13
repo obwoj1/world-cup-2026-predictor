@@ -1,65 +1,104 @@
-"""Phase 2 — generate data/fixtures.json (group-stage round-robin).
+"""Phase 2 — build data/fixtures.json and data/results.json from the real schedule.
 
-Builds the 72 group-stage fixtures (12 groups x 6 matches) from the draw in
-teams.json using a standard 4-team round-robin. Date/venue are left null here and
-enriched by a later fetch step; the prediction engine only needs the pairings.
-
-Knockout fixtures (round of 32 onward) are produced later by the prediction engine
-once group projections exist, since their participants are TBD.
+Parses the official match schedule (fixturedownload.com feed saved in data/sources/) into:
+  * fixtures.json — all 104 matches with real dates, venues and pairings; knockout slots
+    (e.g. "1A", "3ABCDF") are kept as placeholders until participants are known,
+  * results.json — actual scores for matches already played.
 
 Usage:
     python generate_fixtures.py
 """
 from __future__ import annotations
 
-from collections import defaultdict
+import glob
+import json
+import datetime as dt
+from pathlib import Path
 
-from common import TEAMS_FILE, FIXTURES_FILE, load_json, save_json
+from common import FIXTURES_FILE, RESULTS_FILE, SOURCES_DIR, save_json
 
-# Round-robin schedule for 4 teams (indices into the group list), one pairing per
-# matchday. Each team plays the other three exactly once.
-ROUND_ROBIN = [
-    [(0, 3), (1, 2)],  # matchday 1
-    [(0, 2), (3, 1)],  # matchday 2
-    [(0, 1), (2, 3)],  # matchday 3
-]
+# fixturedownload feed names -> our FIFA codes (used in teams.json / predictions).
+FEED_NAME_TO_CODE = {
+    "Mexico": "MEX", "South Africa": "RSA", "Korea Republic": "KOR", "Czechia": "CZE",
+    "Canada": "CAN", "Bosnia and Herzegovina": "BIH", "Qatar": "QAT", "Switzerland": "SUI",
+    "Brazil": "BRA", "Morocco": "MAR", "Haiti": "HAI", "Scotland": "SCO",
+    "USA": "USA", "Paraguay": "PAR", "Australia": "AUS", "Türkiye": "TUR",
+    "Germany": "GER", "Curaçao": "CUW", "Côte d'Ivoire": "CIV", "Ecuador": "ECU",
+    "Netherlands": "NED", "Japan": "JPN", "Sweden": "SWE", "Tunisia": "TUN",
+    "Belgium": "BEL", "Egypt": "EGY", "IR Iran": "IRN", "New Zealand": "NZL",
+    "Spain": "ESP", "Cabo Verde": "CPV", "Saudi Arabia": "KSA", "Uruguay": "URU",
+    "France": "FRA", "Senegal": "SEN", "Iraq": "IRQ", "Norway": "NOR",
+    "Argentina": "ARG", "Algeria": "ALG", "Austria": "AUT", "Jordan": "JOR",
+    "Portugal": "POR", "Congo DR": "COD", "Uzbekistan": "UZB", "Colombia": "COL",
+    "England": "ENG", "Croatia": "CRO", "Ghana": "GHA", "Panama": "PAN",
+}
+
+# Round number in the feed -> our stage label.
+ROUND_TO_STAGE = {1: "group", 2: "group", 3: "group", 4: "r32", 5: "r16", 6: "qf", 7: "sf"}
+
+
+def _latest_feed() -> Path:
+    matches = sorted(glob.glob(str(SOURCES_DIR / "fixtures_fixturedownload_*.json")))
+    if not matches:
+        raise FileNotFoundError(
+            "No fixtures_fixturedownload_*.json in data/sources/. Download the schedule first."
+        )
+    return Path(matches[-1])
+
+
+def _team_ref(name: str) -> tuple[str | None, str | None]:
+    """Return (fifa_code, None) for a real team, or (None, slot) for a knockout slot."""
+    if name in FEED_NAME_TO_CODE:
+        return FEED_NAME_TO_CODE[name], None
+    if name == "To be announced":
+        return None, "TBD"
+    return None, name  # e.g. "1A", "3ABCDF", "2K"
 
 
 def main() -> None:
-    teams = load_json(TEAMS_FILE)
-    if not teams:
-        raise SystemExit("teams.json is empty — run build_ratings.py first.")
+    feed = json.loads(_latest_feed().read_text())
+    fixtures, results = [], []
 
-    by_group: dict[str, list] = defaultdict(list)
-    for t in teams:
-        by_group[t["group"]].append(t)
+    for m in sorted(feed, key=lambda x: x["MatchNumber"]):
+        num = m["MatchNumber"]
+        rnd = m["RoundNumber"]
+        stage = ROUND_TO_STAGE.get(rnd)
+        if stage is None:  # round 8: 103 = third place, 104 = final
+            stage = "third_place" if num == 103 else "final"
 
-    fixtures = []
-    counter = 1
-    for group in sorted(by_group):
-        members = by_group[group]
-        if len(members) != 4:
-            raise SystemExit(f"Group {group} has {len(members)} teams, expected 4.")
-        # Stable order: by Elo descending so seedings are deterministic.
-        members.sort(key=lambda t: -(t["elo"] or 0))
-        for matchday, pairings in enumerate(ROUND_ROBIN, start=1):
-            for home_idx, away_idx in pairings:
-                fixtures.append({
-                    "id": f"M{counter:03d}",
-                    "matchweek": matchday,
-                    "stage": "group",
-                    "group": group,
-                    "matchday": matchday,
-                    "date": None,
-                    "venue": None,
-                    "home": members[home_idx]["id"],
-                    "away": members[away_idx]["id"],
-                })
-                counter += 1
+        when = dt.datetime.fromisoformat(m["DateUtc"].replace("Z", "+00:00"))
+        home_code, home_slot = _team_ref(m["HomeTeam"])
+        away_code, away_slot = _team_ref(m["AwayTeam"])
+        group = (m.get("Group") or "").replace("Group ", "") or None
+
+        fixtures.append({
+            "id": f"M{num:03d}",
+            "matchweek": rnd if stage == "group" else None,
+            "matchday": rnd if stage == "group" else None,
+            "stage": stage,
+            "group": group,
+            "date": when.date().isoformat(),
+            "datetime_utc": when.isoformat(),
+            "venue": m.get("Location"),
+            "home": home_code,
+            "away": away_code,
+            "home_slot": home_slot,
+            "away_slot": away_slot,
+        })
+
+        if m["HomeTeamScore"] is not None and m["AwayTeamScore"] is not None:
+            results.append({
+                "id": f"M{num:03d}",
+                "home_goals": int(m["HomeTeamScore"]),
+                "away_goals": int(m["AwayTeamScore"]),
+                "status": "final",
+            })
 
     save_json(FIXTURES_FILE, fixtures)
-    print(f"[generate_fixtures] wrote {len(fixtures)} group-stage fixtures "
-          f"to {FIXTURES_FILE.name}")
+    save_json(RESULTS_FILE, results)
+    groups = sum(1 for f in fixtures if f["stage"] == "group")
+    print(f"[generate_fixtures] wrote {len(fixtures)} fixtures ({groups} group) "
+          f"and {len(results)} played results from the real schedule")
 
 
 if __name__ == "__main__":

@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "M001",
+    "home_goals": 2,
+    "away_goals": 0,
+    "status": "final"
+  },
+  {
+    "id": "M002",
+    "home_goals": 2,
+    "away_goals": 1,
+    "status": "final"
+  },
+  {
+    "id": "M003",
+    "home_goals": 1,
+    "away_goals": 1,
+    "status": "final"
+  },
+  {
+    "id": "M004",
+    "home_goals": 4,
+    "away_goals": 1,
+    "status": "final"
+  }
+]
