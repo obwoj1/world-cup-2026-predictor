@@ -61,6 +61,7 @@ export default function GroupsPage() {
               <thead>
                 <tr className="text-left text-[11px] uppercase tracking-wide text-slate-500">
                   <th className="pb-2 font-medium">Team</th>
+                  <th className="pb-2 text-center font-medium">FIFA</th>
                   <th className="pb-2 text-center font-medium">Elo</th>
                   {anyPlayed && <th className="pb-2 text-center font-medium">Pts</th>}
                   <th className="pb-2 text-right font-medium">Advance</th>
@@ -74,6 +75,9 @@ export default function GroupsPage() {
                         <span className="mr-1.5">{flag(t.elo_code)}</span>
                         {t.name}
                       </span>
+                    </td>
+                    <td className="text-center tabular-nums text-slate-400">
+                      {t.fifa_rank ? `#${t.fifa_rank}` : "—"}
                     </td>
                     <td className="text-center tabular-nums text-slate-400">{t.elo ?? "—"}</td>
                     {anyPlayed && (
