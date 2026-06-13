@@ -1,0 +1,10 @@
+/node_modules
+/.next
+/out
+/build
+.vercel
+*.tsbuildinfo
+next-env.d.ts.bak
+
+# Synced from repo-root /data at build time — not a second source of truth
+/data
