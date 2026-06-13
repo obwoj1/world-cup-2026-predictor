@@ -21,6 +21,7 @@ e.g.  elo_ratings_2026-06-13.html
 | `elo_teamcodes_2026-06-13.tsv` | eloratings.net | https://www.eloratings.net/en.teams.tsv | 2026-06-13 | ISO2 code → country name map |
 | _group draw_ | ESPN / FIFA | https://www.espn.com/soccer/story/_/id/48939282 | 2026-06-13 | 12-group composition, cross-checked vs FIFA group previews; encoded in `pipeline/seed_draw_2026.py` |
 | `fixtures_fixturedownload_2026-06-13.json` | fixturedownload.com | https://fixturedownload.com/feed/json/fifa-world-cup-2026 | 2026-06-13 | Official 104-match schedule: real dates, venues, pairings, knockout bracket slots, and live results. Parsed by `generate_fixtures.py` into fixtures.json + results.json |
+| `wiki_squads_raw_2026-06-13.txt` | Wikipedia | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads?action=raw | 2026-06-13 | Raw wikitext of all 48 final 26-man squads (position, caps, intl goals, club per player). Parsed by `build_players.py` into players.json |
 
 ## Providers used
 - **eloratings.net** — team Elo ratings
