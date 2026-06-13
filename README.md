@@ -88,11 +88,11 @@ ratings/form, re-runs predictions for all remaining matches, and writes a summar
 
 | Phase | Description | Status |
 |-------|-------------|--------|
-| 1 | Plan & scaffold | ✅ in progress |
-| 2 | Data pipeline | ⬜ |
-| 3 | Prediction engine | ⬜ |
+| 1 | Plan & scaffold | ✅ done |
+| 2 | Data pipeline | ✅ teams (real Elo) + fixtures done; form/xG/players to enrich |
+| 3 | Prediction engine | ✅ Poisson per-match + Monte Carlo bracket odds |
 | 4 | Web app UI | ⬜ |
-| 5 | Reconciliation workflow | ⬜ |
+| 5 | Reconciliation workflow | ⬜ (stub in place) |
 
 ## License & disclaimer
 
