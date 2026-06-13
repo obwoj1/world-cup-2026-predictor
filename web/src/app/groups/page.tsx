@@ -17,7 +17,7 @@ export default function GroupsPage() {
   const fixtureById = Object.fromEntries(fixtures.map((f) => [f.id, f]));
   for (const r of results) {
     const fx = fixtureById[r.id];
-    if (!fx) continue;
+    if (!fx || !fx.home || !fx.away) continue;
     const h = standings[fx.home];
     const a = standings[fx.away];
     if (!h || !a) continue;

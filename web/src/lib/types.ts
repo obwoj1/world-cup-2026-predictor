@@ -15,14 +15,17 @@ export interface Team {
 
 export interface Fixture {
   id: string;
-  matchweek: number;
+  matchweek: number | null;
   stage: string;
   group: string | null;
-  matchday?: number;
+  matchday?: number | null;
   date: string | null;
+  datetime_utc?: string | null;
   venue: string | null;
-  home: string;
-  away: string;
+  home: string | null;
+  away: string | null;
+  home_slot?: string | null;
+  away_slot?: string | null;
 }
 
 export interface MatchResult {
