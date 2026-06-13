@@ -1,6 +1,12 @@
 # Prediction pipeline
 
-Python scripts that turn raw data into the JSON the web app reads. Run them in order:
+**To refresh everything from live sources in one command:**
+```bash
+bash pipeline/refresh.sh        # fetch live data + rebuild all outputs
+(cd web && npm run sync-data)   # then refresh the web app's copy
+```
+
+Python scripts that turn raw data into the JSON the web app reads. Run them individually in order:
 
 ```bash
 python fetch_data.py --all      # download raw sources -> data/sources/
