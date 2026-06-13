@@ -6,6 +6,7 @@ import type {
   MatchResult,
   Prediction,
   Projections,
+  Player,
 } from "./types";
 
 // web/data is populated by scripts/sync-data.mjs (predev / prebuild).
@@ -21,6 +22,7 @@ export const getTeams = (): Team[] => read<Team[]>("teams.json", []);
 export const getFixtures = (): Fixture[] => read<Fixture[]>("fixtures.json", []);
 export const getResults = (): MatchResult[] => read<MatchResult[]>("results.json", []);
 export const getPredictions = (): Prediction[] => read<Prediction[]>("predictions.json", []);
+export const getPlayers = (): Player[] => read<Player[]>("players.json", []);
 export const getProjections = (): Projections | null =>
   read<Projections | null>("projections.json", null);
 

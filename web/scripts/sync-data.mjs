@@ -15,6 +15,7 @@ const FILES = [
   "results.json",
   "predictions.json",
   "projections.json",
+  "players.json",
 ];
 
 if (!existsSync(SRC)) {

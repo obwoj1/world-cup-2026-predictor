@@ -114,7 +114,11 @@ export function MatchCard({
                 {pred.players_to_watch.map((p) => (
                   <li key={p.player_id} className="text-slate-300">
                     <span className="font-medium text-pitch-400">{p.name}</span>{" "}
-                    <span className="text-slate-400">({p.team})</span> — {p.evidence}
+                    <span className="text-slate-400">
+                      ({p.team}
+                      {p.position ? `, ${p.position}` : ""})
+                    </span>{" "}
+                    — {p.evidence}
                   </li>
                 ))}
               </ul>

@@ -39,7 +39,24 @@ export interface PlayerToWatch {
   player_id: string;
   name: string;
   team: string;
+  position?: string;
+  role?: string;
   evidence: string;
+}
+
+export interface Player {
+  id: string;
+  name: string;
+  team: string;
+  position: string;
+  pos_group: string;
+  club: string | null;
+  caps: number | null;
+  intl_goals: number | null;
+  key: boolean;
+  key_role: string | null;
+  evidence: string | null;
+  sources: string[];
 }
 
 export interface Prediction {
