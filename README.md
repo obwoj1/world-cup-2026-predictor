@@ -73,15 +73,24 @@ npm run dev
 
 ## Running a reconciliation (after a matchweek)
 
-```bash
-cd pipeline
-source .venv/bin/activate
-python reconcile.py --matchweek 1
-```
+1. Add the matchweek's actual scores to `data/results.json`:
+   ```json
+   [{"id": "M001", "home_goals": 2, "away_goals": 1, "status": "final"}]
+   ```
+2. Run the reconciliation:
+   ```bash
+   cd pipeline
+   source .venv/bin/activate
+   python reconcile.py --matchweek 1            # grade + update + re-run + write log
+   python reconcile.py --matchweek 1 --dry-run  # preview metrics only, writes nothing
+   python reconcile.py --matchweek 1 --commit   # also git-commit the result
+   ```
 
-This pulls the latest actual results, compares them to what was predicted, updates team
-ratings/form, re-runs predictions for all remaining matches, and writes a summary to
-`reconciliations/matchweek-01.md`. Commit the result with a message like
+This grades the standing predictions against the results (outcome accuracy, Brier score,
+exact scorelines), flags upsets and explains them, updates each team's Elo and form,
+re-runs predictions and the Monte Carlo simulation for all remaining matches, and writes a
+"what changed and why" summary to `reconciliations/matchweek-01.md`. The graded predictions
+are snapshotted to `data/snapshots/` for traceability. Commit with a message like
 `Matchweek 1 reconciliation`.
 
 ## Status
@@ -92,7 +101,7 @@ ratings/form, re-runs predictions for all remaining matches, and writes a summar
 | 2 | Data pipeline | ✅ teams (real Elo) + fixtures done; form/xG/players to enrich |
 | 3 | Prediction engine | ✅ Poisson per-match + Monte Carlo bracket odds |
 | 4 | Web app UI | ✅ fixtures, groups, title race, players, reconciliation pages |
-| 5 | Reconciliation workflow | ⬜ (stub in place) |
+| 5 | Reconciliation workflow | ✅ grade, Elo/form update, re-run, matchweek log |
 
 ## License & disclaimer
 
