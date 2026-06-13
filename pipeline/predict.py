@@ -21,15 +21,24 @@ from model import predict_match
 from reasoning import build_reasoning
 
 
+_ROLE_ORDER = {"attack": 0, "midfield": 1, "defence": 2}
+
+
 def _players_to_watch(players_by_team: dict, *team_ids: str) -> list[dict]:
+    """Flagged difference-makers from each side, ordered attack → midfield → defence."""
     out = []
     for tid in team_ids:
-        for p in players_by_team.get(tid, [])[:1]:  # top player per side for now
+        key = [p for p in players_by_team.get(tid, []) if p.get("key")]
+        key.sort(key=lambda p: (_ROLE_ORDER.get(p.get("key_role"), 1),
+                                -(p.get("intl_goals") or 0)))
+        for p in key:
             out.append({
                 "player_id": p["id"],
                 "name": p["name"],
                 "team": tid,
-                "evidence": p.get("big_tournament") or "Key attacking threat (stats TBD).",
+                "position": p.get("position"),
+                "role": p.get("key_role"),
+                "evidence": p.get("evidence") or "Key player.",
             })
     return out
 
